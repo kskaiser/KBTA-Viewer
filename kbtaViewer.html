@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>KBTA Viewer</title>
+        <link rel="stylesheet" href="_/base.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h2>KBTA model: </h2>
+        <form>
+            <select name="KBTA" onchange="loadKB(this.form.KBTA.options[this.form.KBTA.selectedIndex].value)">
+                <option selected>Choose a knowledge base ...</option>
+                <option value="data/kbta_diabetes_LASSIE.xml">Diabetes Knowledge Base (LASSIE)</option>
+                <option value="data/kbta_gdm_GS.xml">GDM Knowledge Base (LASSIE)</option>
+                <option value="data/kbta_gdm_LASSIE_final.xml">GDM Knowledge Base (LASSIE)</option>
+                <!-- option value="data/test.xml">Test1</option>
+                <option value="data/test2.xml">Test2</option -->
+            </select>
+        </form>
+        <div id="menu">
+            <span id="concepts"></span>
+        </div>
+        <div id="guideline" onmousedown="whichElement(event)"></div>
+        <div id="kbtaCluster">
+            <span id="chart">
+            </span>
+            <table id="form" width="100%">
+                <tr><td style="width:100px">Concept ID: </td>
+                    <td id="cid" style="width:450px">
+                        <svg id="c-img" width="20" height="15" style="margin-top: 3px; margin-right: 5px"></svg>
+                    </td>
+                </tr>
+                <tr><td>Name:</td><td id="cname"></td></tr>
+                <tr><td>Derived from: </td><td id="cderiv"></td></tr>
+                <tr><td>Used by: </td><td id="cused"></td></tr>
+            </table>
+
+        </div>
+        
+    <script src="_/d3.min.js"></script>
+    <script src="loadDataFiles.js"></script>
+    <script src="kbtaViewer.js"></script>
+</body>
+</html>

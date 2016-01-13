@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.1 U (http://www.xmlspy.com) by Denis (Ben-Gurion University) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Knowledge-Base">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element ref="RawNumericConcept" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="RawNominalConcept" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="RawOrdinalConcept" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="ValueAbstractionConcept" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="LogicAbstractionConcept" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="ContextConcept" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="PatternConcept" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:string" use="optional"/>
+			<xs:attribute name="name" type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="Concept">
+		<xs:sequence>
+			<xs:element name="LocalPersistence">
+				<xs:complexType>
+					<xs:attribute name="goodBefore" type="xs:int" use="required"/>
+					<xs:attribute name="goodAfter" type="xs:int" use="required"/>
+					<xs:attribute name="timeUnit" type="xs:string" use="required"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TemporalSemanticProperties">
+				<xs:complexType>
+					<xs:attribute name="concenatable" type="xs:boolean"/>
+					<xs:attribute name="downwardHereditary" type="xs:boolean"/>
+					<xs:attribute name="upwardHereditary" type="xs:boolean"/>
+					<xs:attribute name="forward" type="xs:boolean"/>
+					<xs:attribute name="backward" type="xs:boolean"/>
+					<xs:attribute name="solid" type="xs:boolean"/>
+					<xs:attribute name="gestalt" type="xs:boolean"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Synonyms" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Synonym" minOccurs="0" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:attribute name="name" type="xs:string"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="StandardTerms" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="StandardTerm" minOccurs="0" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:attribute name="vocabulary" type="xs:string" use="required"/>
+								<xs:attribute name="key" type="xs:string" use="required"/>
+								<xs:attribute name="CUI" type="xs:string" use="optional"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" use="required"/>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="description" type="xs:string" use="optional"/>
+		<xs:attribute name="semi_formal" type="xs:string" use="optional"/>
+		<xs:attribute name="type" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:element name="RawNumericConcept">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="Concept">
+					<xs:sequence>
+						<xs:element name="NumericAllowedValues">
+							<xs:complexType>
+								<xs:attribute name="Scale" type="xs:string" use="optional" default="ratio"/>
+								<xs:attribute name="Units" type="xs:string" use="required"/>
+								<xs:attribute name="MinValue" type="xs:double" use="required"/>
+								<xs:attribute name="MaxValue" type="xs:double" use="required"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="RawNominalConcept">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="Concept">
+					<xs:sequence>
+						<xs:element name="NominalAllowedValues">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="NominalStringValue" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:attribute name="value" type="xs:string" use="required"/>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="RawOrdinalConcept">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="Concept">
+					<xs:sequence>
+						<xs:element name="OrdinalAllowedValues">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="OrdinalStringValue" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:attribute name="order" type="xs:int" use="required"/>
+											<xs:attribute name="value" type="xs:string" use="required"/>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ValueAbstractionConcept">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="Concept">
+					<xs:sequence>
+						<xs:element ref="NecessaryContext"/>
+						<xs:element ref="DerivedFrom"/>
+						<xs:element ref="DerivedFromComponents"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="LogicAbstractionConcept">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="Concept">
+					<xs:sequence>
+						<xs:element ref="NecessaryContext"/>
+						<xs:element ref="DerivedFrom"/>
+					</xs:sequence>
+					<xs:attribute name="ComponentsRelation" use="required"/>
+					<xs:attribute name="K"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ContextConcept">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="Concept">
+					<xs:sequence>
+						<xs:element ref="DerivedFrom"/>
+						<xs:element name="GeneratedFrom" type="GeneratedBy"/>
+						<xs:element name="GeneratedUntil" type="GeneratedBy"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="PatternConcept">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="Concept">
+					<xs:sequence>
+						<xs:element ref="NecessaryContext"/>
+						<xs:element ref="DerivedFrom"/>
+						<xs:element name="PatternComponents">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="PatternComponent" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="ConceptID_Name" type="ConceptID_Name"/>
+												<xs:element name="componentLocalConstraints">
+													<xs:complexType>
+														<xs:sequence>
+															<xs:element ref="componentValueConstraints"/>
+															<xs:element name="componentTimeConstraints">
+																<xs:complexType>
+																	<xs:sequence>
+																		<xs:element name="ReferencePoint" type="ConceptID_Name"/>
+																	</xs:sequence>
+																	<xs:attribute name="StartPoint" type="xs:dateTime"/>
+																	<xs:attribute name="EarliestStartPoint" type="xs:dateTime"/>
+																	<xs:attribute name="LatestStartPoint" type="xs:dateTime"/>
+																	<xs:attribute name="EndPoint" type="xs:dateTime"/>
+																	<xs:attribute name="EarliestEndPoint" type="xs:dateTime"/>
+																	<xs:attribute name="LatestEndPoint" type="xs:dateTime"/>
+																	<xs:attribute name="referencePositionNumber"/>
+																	<xs:attribute name="referenceBoundaryPoint"/>
+																	<xs:attribute name="timeUnit"/>
+																	<xs:attribute name="relativeStartPoint"/>
+																	<xs:attribute name="relativeEarliestStartPoint"/>
+																	<xs:attribute name="relativeLatestStartPoint"/>
+																	<xs:attribute name="relativeEndPoint"/>
+																	<xs:attribute name="relativeEarliestEndPoint"/>
+																	<xs:attribute name="relativeLatestEndPoint"/>
+																	<xs:attribute name="MinDuration"/>
+																	<xs:attribute name="MaxDuration"/>
+																</xs:complexType>
+															</xs:element>
+														</xs:sequence>
+													</xs:complexType>
+												</xs:element>
+											</xs:sequence>
+											<xs:attribute name="alias" type="xs:string"/>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="PatternTemporalPairwiseConstraints">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="TemporalPairwiseConstraint" minOccurs="0" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:attribute name="componentAliasA"/>
+											<xs:attribute name="componentAliasB"/>
+											<xs:attribute name="boundaryPointA"/>
+											<xs:attribute name="boundaryPointB"/>
+											<xs:attribute name="Operator"/>
+											<xs:attribute name="timeUnit"/>
+											<xs:attribute name="minDifference"/>
+											<xs:attribute name="maxDifference"/>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="PatternPeriodicConstraints">
+							<xs:complexType>
+								<xs:attribute name="timeUnit"/>
+								<xs:attribute name="minGap"/>
+								<xs:attribute name="maxGap"/>
+								<xs:attribute name="Operator"/>
+								<xs:attribute name="minCardinalityValue"/>
+								<xs:attribute name="maxCardinalityValue"/>
+								<xs:attribute name="cardinalityValue"/>
+								<xs:attribute name="minEnvelope"/>
+								<xs:attribute name="maxEnvelope"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="patternComponentsRelation"/>
+					<xs:attribute name="K"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="NecessaryContext">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ConceptID_Name" type="ConceptID_Name" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DerivedFrom">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ConceptID_Name" type="ConceptID_Name" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DerivedFromComponents">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="DerivedFromComponent">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ConceptID_Name" type="ConceptID_Name"/>
+							<xs:element ref="componentValueConstraints"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="componentValueConstraints">
+		<xs:complexType>
+			<xs:attribute name="minValue"/>
+			<xs:attribute name="maxValue"/>
+			<xs:attribute name="value"/>
+			<xs:attribute name="Operator"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="ConceptID_Name">
+		<xs:attribute name="ConceptID" use="required"/>
+		<xs:attribute name="ConceptName"/>
+	</xs:complexType>
+	<xs:complexType name="GeneratedBy">
+		<xs:sequence>
+			<xs:element name="ConceptID_Name" type="ConceptID_Name"/>
+			<xs:element ref="componentValueConstraints"/>
+		</xs:sequence>
+		<xs:attribute name="timeUnit"/>
+		<xs:attribute name="timeGap"/>
+		<xs:attribute name="boundaryPoint"/>
+	</xs:complexType>
+</xs:schema>
