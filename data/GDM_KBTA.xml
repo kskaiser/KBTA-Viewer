@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html gate:annotMaxId="23777" gate:gateId="0" xmlns:gate="http://www.gate.ac.uk">
+	<cpg gate:gateId="23776">
+		<head gate:gateId="1">
+			<title gate:gateId="2">Gestational Diabetes Guideline (CSPT)</title>
+		</head>
+		<body gate:gateId="3">
+			<h1 gate:gateId="4">Introduction</h1>
+			<p gate:gateId="5">Pregnancy is characterized by insulin resistance and hyperinsulinemia, thus it may predispose some women to develop diabetes. The resistance stems from placental secretion of diabetogenic hormones including growth hormone, corticotropin releasing hormone, placental lactogen, and progesterone, as well as increased maternal adipose deposition, decreased exercise, and increased caloric intake. These and other endocrinologic and metabolic changes ensure that the fetus has an ample supply of fuel and nutrients at all times. Gestational diabetes occurs when pancreatic function is not sufficient to overcome the insulin resistance created by changes in diabetogenic hormones during pregnancy.</p>
+			<p gate:gateId="6">Several adverse outcomes have been associated with diabetes during pregnancy. Importantly, the risk of these outcomes increases continuously as maternal fasting plasma glucose levels increase. However, there is no clear threshold that defines patients at increased risk. Adverse outcomes include: 
+				<ul gate:gateId="7">
+					<li gate:gateId="8">Preeclampsia</li>
+					<li gate:gateId="9">Hydramnios</li>
+					<li gate:gateId="10">Fetal macrosomia</li>
+					<li gate:gateId="11">Fetal organomegaly (hepatomegaly, cardiomegaly)</li>
+					<li gate:gateId="12">Birth trauma</li>
+					<li gate:gateId="13">Operative delivery</li>
+					<li gate:gateId="14">Perinatal mortality</li>
+					<li gate:gateId="15">
+						Neonatal respiratory problems and 
+						<ValueAbstraction gate:gateId="23722" id="23269" rule="MakeKBTA">metabolic complications</ValueAbstraction>
+						<LogicAbstraction gate:gateId="23723" id="23448" rel="OR" rule="MakeKBTA">
+							(
+							<RawNominalConcept gate:gateId="23724" id="23315" rule="MakeKBTA">hypoglycemia</RawNominalConcept>
+							, 
+							<RawNominalConcept gate:gateId="23725" id="23316" rule="MakeKBTA">hyperbilirubinemia</RawNominalConcept>
+							, 
+							<RawNominalConcept gate:gateId="23726" id="23317" rule="MakeKBTA">hypocalcemia</RawNominalConcept>
+							, 
+							<RawNominalConcept gate:gateId="23727" id="23433" rule="MakeKBTA">erythremia)</RawNominalConcept></LogicAbstraction>
+					</li>
+				</ul>If maternal hyperglycemia is present during organogenesis because of overt (also termed pregestational) diabetes, there is an increased risk of miscarriage and congenital anomalies.</p>
+			<h1 gate:gateId="16">Definition and diagnostic criteria</h1>
+			<p gate:gateId="17">Gestational diabetes is defined as carbohydrate intolerance that begins or is first recognized during pregnancy. In 2010, the International Association of Diabetes and Pregnancy Study Group (IADPSG), recommended to classified it in two subtypes:</p>
+			<ol gate:gateId="18" type="a">
+				<li gate:gateId="19">overt diabetes, which is defined with the same criteria than in general population but during the initial prenatal visit (Note: These patients will not be considered in MobiGuide): 
+					<ul gate:gateId="20">
+						<li gate:gateId="21">Fasting plasma glucose ≥ 126 mg/dL [7.0 mmol/L], or</li>
+						<li gate:gateId="22">A1C ≥ 6.5 percent using a standardized assay, or</li>
+						<li gate:gateId="23">Random plasma glucose ≥ 200 mg/dL [11.1 mmol/] that is subsequently confirmed by elevated fasting plasma glucose or A1C, as noted above</li></ul>
+				</li>
+				<li gate:gateId="24">Gestational diabetes.
+
+					<p gate:gateId="25">The diagnostic criteria for gestational diabetes have been a matter of debate since the publication of the IADPSG recommendations in 2010. The recommendation is based on outcome data reported in the HAPO study.</p>
+					<p gate:gateId="26">The Hyperglycemia and Adverse Pregnancy Outcome (HAPO) study included more than 23,000 pregnant women. After a 75-g oral two-hour glucose tolerance test, the risk of macrosomia increased as much as five-fold as fasting blood glucose concentration increased above 75 mg/dL (4.2 mmol/L), or one-hour glucose concentration increased above 105 mg/dL (5.8 mmol/L), or two-hour glucose concentration increased above 90 mg/dL (5.0 mmol/L), and the risk increased continuously across the spectrum of glucose results. There was also a positive, but weaker, correlation between increasing glucose concentration and maternal complications (eg, preeclampsia) and neonatal metabolic morbidity (eg, hypoglycemia, hyperbilirubinemia), but not long-term childhood morbidity, such as obesity at age two years in a small subset of offspring. Of note, women with significant hyperglycemia were excluded from the HAPO analysis (exclusion criteria: fasting glucose concentration greater than 105 mg/dL [5.8 mmol/L], two-hour glucose concentration greater than 200 mg/dL [11.1 mmol/L], or a random glucose concentration later in gestation greater than 160 mg/dL [8.9 mmol/L]).</p>
+					<p gate:gateId="27">On the light of the results of the HAPO study, the International Association of Diabetes and Pregnancy Study Groups (IADPSG) and the American Diabetes Association proposed criteria for Gestational Diabetes based on the results of the 75-gram Glucose tolerance test</p>
+					<table border="1" gate:gateId="28">
+						<tbody gate:gateId="29">
+							<tr gate:gateId="30">
+								<th gate:gateId="31">Plasma glucose</th>
+								<th gate:gateId="32">mg/dl</th>
+								<th gate:gateId="33">mmol/l</th></tr>
+							<tr gate:gateId="34">
+								<td gate:gateId="35">Fasting</td>
+								<td gate:gateId="36">≥ 92</td>
+								<td gate:gateId="37">≥ 5.1</td>
+							</tr>
+							<tr gate:gateId="38">
+								<td gate:gateId="39">One hour</td>
+								<td gate:gateId="40">≥ 180</td>
+								<td gate:gateId="41">≥ 10.0</td>
+							</tr>
+							<tr gate:gateId="42">
+								<td gate:gateId="43">Two hours</td>
+								<td gate:gateId="44">≥ 153</td>
+								<td gate:gateId="45">≥ 8.5</td>
+							</tr>
+						</tbody>
+					</table>
+					<p gate:gateId="46">The thresholds represent the glucose values at which the odds of infant birth weight, cord C-peptide (proxy for fetal insulin level), and percent body fat &gt;90 percentile were 1.75 times the estimated odds of these outcomes at mean glucose levels, based on fully adjusted logistic regression models. Compared to women in the HAPO study with all glucose values below the thresholds, women who exceeded one or more of these thresholds had a two-fold higher frequency of large for gestational age infants and preeclampsia, and &gt;45 percent increase in preterm delivery and primary cesarean delivery. Using an odds ratio of 2 for the thresholds defined a population with further increased frequencies of these outcomes, but the increase was modest and resulted in failure to identify many women who were at almost comparable risk.</p>
+					<p gate:gateId="47">However, although the ADA has assumed the IADPSG recommendations, the American College of Obstetrics and gynecologists (ACOG) does not recommend this approach &quot;because there is no evidence that diagnosis using these criteria leads to clinically significant improvements in maternal or newborn outcomes and it would lead to a significant increase in health care costs&quot;.</p>
+					<p gate:gateId="48">The National Institute of Health is planning a Consensus Development Conference to determine the optimal approach to screening and diagnosis in the United States.</p>
+					<p gate:gateId="49">Thus, in this guideline we are going to maintain the recommendations for diagnosis made by the Spanish Group for the study of Diabetes and Pregnancy which agree with the recommendations from the ACOG:</p>
+					<ol gate:gateId="50">
+						<li gate:gateId="51">
+							<Condition gate:gateId="328">All 
+			
+								<LogicAbstraction gate:gateId="23728" id="23454" rel="AND" rule="MakeKBTA">
+									<ValueAbstraction gate:gateId="23729" id="23455" rule="MakeKBTA">
+										<ValueAbstraction gate:gateId="23730" id="23237" rule="MakeKBTA">
+											<RawNominalConcept gate:gateId="23731" id="23236" rule="MakeKBTA">pregnant</RawNominalConcept>
+											<RawNominalConcept gate:gateId="23732" id="23234" rule="MakeKBTA">
+												<Context gate:gateId="23733" id="23235" rule="MakeKBTA">women</Context></RawNominalConcept>
+										</ValueAbstraction>
+									</ValueAbstraction>
+								</LogicAbstraction>
+							</Condition>
+							<Activity gate:gateId="329">should be screened for GDM using the O'Sullivan test</Activity>, that consist on a 50-g, 1-hour loading test. 
+		
+							<ol gate:gateId="52" type="a">
+								<li gate:gateId="53">
+									First trimester (high risk for GDM) 
+				
+									<ol gate:gateId="54" type="i">
+										<li gate:gateId="55">Age ? 35</li>
+										<li gate:gateId="56">Body Mass Index (BMI)= mass (Kg)/ (Height (m))^2 ? 30 kg/m2</li>
+										<li gate:gateId="57">Previous GDM confirmed or suspected on the light of the perinatal outcomes, i.e. macrosomia.</li>
+										<li gate:gateId="58">Familiar history of diabetes in first degree relatives.</li></ol>
+								</li>
+								<li gate:gateId="59">Second trimester (24-28 weeks) 
+				
+									<ol gate:gateId="60" type="i">
+										<li gate:gateId="61">All the pregnant women non previously diagnosed of GDM</li></ol>
+								</li>
+								<li gate:gateId="62">Third trimester 
+				
+									<ol gate:gateId="63" type="i">
+										<li gate:gateId="64">All the pregnant women non previously screened</li>
+										<li gate:gateId="65">
+											<Condition gate:gateId="326">
+												Women with 
+							
+												<LogicAbstraction gate:gateId="23734" id="23456" rel="AND" rule="MakeKBTA">
+													<ValueAbstraction gate:gateId="23735" id="23457" rule="MakeKBTA">
+														<RawNominalConcept gate:gateId="23736" id="23324" rule="MakeKBTA">normal O'Sullivan test</RawNominalConcept>
+														but who 
+									
+														<ValueAbstraction gate:gateId="23737" id="23275" rule="MakeKBTA">develop complications suggesting GDM</ValueAbstraction>
+														<LogicAbstraction gate:gateId="23738" id="23449" rel="OR" rule="MakeKBTA">
+															(
+										
+															<RawNominalConcept gate:gateId="23739" id="23325" rule="MakeKBTA">macrosomia</RawNominalConcept>
+															, 
+										
+															<RawNominalConcept gate:gateId="23740" id="23434" rule="MakeKBTA">polihydramnios)</RawNominalConcept></LogicAbstraction>
+													</ValueAbstraction>
+												</LogicAbstraction>
+											</Condition>. In those cases 
+						
+											<Activity gate:gateId="327">it would be performed directly a 100 gr OGTT test</Activity></li>
+									</ol>
+								</li>
+							</ol>
+						</li>
+						<li gate:gateId="66">The diagnosis of GDM can be made based on the result of the 100-g, 3-hour oral glucose tolerance test, for which there is evidence that treatment improves outcome. The plasma levels designated by the National Diabetes Data Group are appropriate to use (see table). 
+		
+							<table border="1" gate:gateId="67">
+								<tbody gate:gateId="68">
+									<tr gate:gateId="69">
+										<th gate:gateId="70">Status</th>
+										<th colspan="2" gate:gateId="71">Plasma level</th></tr>
+									<tr gate:gateId="72">
+										<td gate:gateId="73"/>
+										<td gate:gateId="74">mg/dL</td>
+										<td gate:gateId="75">mmol/L</td>
+									</tr>
+									<tr gate:gateId="76">
+										<td gate:gateId="77">Fasting</td>
+										<td gate:gateId="78">105</td>
+										<td gate:gateId="79">5.8</td>
+									</tr>
+									<tr gate:gateId="80">
+										<td gate:gateId="81">1 hour</td>
+										<td gate:gateId="82">190</td>
+										<td gate:gateId="83">10.6</td>
+									</tr>
+									<tr gate:gateId="84">
+										<td gate:gateId="85">2 hour</td>
+										<td gate:gateId="86">165</td>
+										<td gate:gateId="87">9.2</td>
+									</tr>
+									<tr gate:gateId="88">
+										<td gate:gateId="89">3 hour</td>
+										<td gate:gateId="90">145</td>
+										<td gate:gateId="91">8.0</td>
+									</tr>
+								</tbody>
+							</table>
+						</li>
+						<li gate:gateId="92">A positive diagnosis requires that two or more thresholds be met or exceeded. If only one point is exceeded, then fasting and 1h postprandial glucose control are adviced. In case of normality of all the glucose results during at least the first week of follow-up, random and sporadic tests would be enough to guarantee an appropriate carbohydrate tolerance. The patient receives nutritional recommendations and exercise recommendations. Note: These patients will be enrolled in MobiGuide.</li>
+					</ol>
+					<p gate:gateId="93">The highly concentrated hyperosmolar glucose solution can cause gastric irritation, delayed emptying, and gastrointestinal osmotic imbalance, leading to nausea and vomiting. In case of patients unable to tolerate oral hyperosmolar glucose, the recommended option is:</p>
+					<p gate:gateId="94">
+						<Activity gate:gateId="323">Serial glucose monitoring -- Periodic random fasting and one-hour postprandial blood glucose testing</Activity>-- is a monitoring option 
+	
+						<Condition gate:gateId="324">
+							for 
+		
+							<LogicAbstraction gate:gateId="23741" id="23458" rel="AND" rule="MakeKBTA">
+								<ValueAbstraction gate:gateId="23742" id="23459" rule="MakeKBTA">
+									women at 
+				
+									<RawNominalConcept gate:gateId="23743" id="23278" rule="MakeKBTA">high risk for gestational diabetes</RawNominalConcept>
+									who 
+				
+									<RawNominalConcept gate:gateId="23744" id="23314" rule="MakeKBTA">
+										are 
+					
+										<RawNominalConcept gate:gateId="23745" id="23326" rule="MakeKBTA">unable to take an oral glucose load</RawNominalConcept></RawNominalConcept>
+								</ValueAbstraction>
+							</LogicAbstraction>
+						</Condition>. HbA1c ? 6% could help to guarantee that this option is a reasonable way to start with. 
+	
+						<Activity gate:gateId="325">The patient receives nutritional recommendations and exercise recommendations</Activity>
+						. Note: These patients will be enrolled in MobiGuide.</p>
+				</li>
+			</ol>
+			<h1 gate:gateId="95">Rationale for treatment</h1>
+			<p gate:gateId="96">Identifying women with GDM is important because meta-analysis of randomized trials has shown that appropriate therapy can decrease maternal and fetal morbidity, particularly macrosomia. The value of treatment of GDM was best illustrated in two large trials that randomly assigned women with mild GDM to a regimen of either diet/blood glucose monitoring/insulin as needed or routine obstetrical care. One trial was performed in Australia and the other in the United States. Both trials observed that treatment resulted in a significant decrease in the prevalence of macrosomia (US trial: 6 versus 14 percent with usual care; Australian trial: 10 versus 21 percent with usual care), and the reduction in macrosomia was associated with a significant decrease in shoulder dystocia in one trial and the composite outcome of shoulder dystocia, nerve palsy, bone fracture, and death in the other. The rate of cesarean delivery was significantly reduced in the treatment group of one trial, and not increased in the other trial, although an increase is often observed in women with gestational diabetes. Treatment did not lead to a significant reduction in the prevalence of neonatal metabolic abnormalities (eg, hypoglycemia, hyperbilirubinemia) in either trial. Fetal/neonatal death was rare in all groups in both trials.</p>
+			<p gate:gateId="97">Both trials reported lower pregnancy weight gain in the treated group than in the control group. The US trial also reported a significant decrease in the rates of preeclampsia and gestational hypertension in the treatment group (8.6 versus 13.6 percent with usual care) and the Australian trial noted a significantly reduced rate of gestational hypertension (12 versus 18 percent with usual care).</p>
+			<h1 gate:gateId="98">Monitoring</h1>
+			<h2 gate:gateId="99">
+				<Activity gate:gateId="233">Glucose monitoring</Activity>
+			</h2>
+			<p gate:gateId="100">
+				<Condition act_Id="235" gate:gateId="234">Women with 
+		
+					<RawNominalConcept gate:gateId="23746" id="23335" rule="MakeKBTA">GDM</RawNominalConcept></Condition>
+				<Activity gate:gateId="235">should measure their blood glucose concentration at least four times daily (fasting and one hour after the first bite of each meal)</Activity>to determine whether hyperglycemia severe enough to increase fetal risk is occurring. Results should be recorded in a glucose log, along with dietary information. This facilitates recognition of glycemic patterns and helps immeasurably in interpreting results stored in the memory of modern meters. Multiple daily measurements allow recognition of women who should begin insulin therapy and appear to decrease the risk of macrosomia. The decision to start insulin therapy (or not to start it) is taken by the endocrinologist. Note: in some not very frequent cases, the insulin therapy is not started after considering the 
+	
+				<ValueAbstraction gate:gateId="23747" id="23289" rule="MakeKBTA">specific patient personal context</ValueAbstraction>
+				<LogicAbstraction gate:gateId="23748" id="23451" rel="AND" rule="MakeKBTA">
+					(e.g. 
+		
+					<RawNominalConcept gate:gateId="23749" id="23338" rule="MakeKBTA">gestational age</RawNominalConcept>
+					= 39 week and 
+		
+					<RawNominalConcept gate:gateId="23750" id="23437" rule="MakeKBTA">fetus percentile</RawNominalConcept>
+					&lt; 
+		
+					<RawNominalConcept gate:gateId="23751" id="23438" rule="MakeKBTA">60</RawNominalConcept>
+					, 
+		
+					<RawOrdinalConcept gate:gateId="23752" id="23339" rule="MakeKBTA">low family support</RawOrdinalConcept>
+					, 
+		
+					<RawNominalConcept gate:gateId="23753" id="23439" rule="MakeKBTA">analphabetism</RawNominalConcept>
+					and 
+		
+					<ValueAbstraction gate:gateId="23754" id="23341" rule="MakeKBTA">
+						<RawNumericConcept gate:gateId="23755" id="23340" rule="MakeKBTA">post-prandial BG</RawNumericConcept>
+						&lt; 160 mg/dl</ValueAbstraction>and fasting BG &lt; 120 mg/dl)</LogicAbstraction>.</p>
+			<p gate:gateId="101">Although there are no data on the duration of good control sufficient to reduce the frequency of self-monitoring or the appropriate frequency of testing in GDM that is well controlled (see section 5.1.1 Glucose target) with nutritional therapy, 
+	
+				<Activity gate:gateId="238">we recommend decreasing the frequency of glucose monitoring</Activity>
+				<Condition act_Id="238" gate:gateId="239">
+					when 
+		
+					<LogicAbstraction gate:gateId="23756" id="23460" rel="AND" rule="MakeKBTA">
+						<ValueAbstraction gate:gateId="23757" id="23461" rule="MakeKBTA">
+							<RawNominalConcept gate:gateId="23758" id="23342" rule="MakeKBTA">good glycemic control</RawNominalConcept>
+							is accomplished with 
+				
+							<PatternAbstraction gate:gateId="23759" id="23344" rule="MakeKBTA">
+								<RawNominalConcept gate:gateId="23760" id="23343" rule="MakeKBTA">medical nutritional therapy</RawNominalConcept>
+								for more than 1 month</PatternAbstraction>
+						</ValueAbstraction>
+					</LogicAbstraction>.</Condition>Decrease the frequency of glucose monitoring means to measure 
+	
+				<ValueAbstraction gate:gateId="23761" id="23292" rule="MakeKBTA">blood glucose</ValueAbstraction>
+				<LogicAbstraction gate:gateId="23762" id="23452" rel="AND" rule="MakeKBTA">
+					(
+		
+					<RawNominalConcept gate:gateId="23763" id="23345" rule="MakeKBTA">fasting</RawNominalConcept>
+					and 
+		
+					<RawNominalConcept gate:gateId="23764" id="23346" rule="MakeKBTA">3 postprandial measurements</RawNominalConcept>
+					)</LogicAbstraction>twice a week instead of every day.</p>
+			<p gate:gateId="102">The advent of continuous glucose monitoring has the potential to allow determination of peak postprandial glucose levels; future research should determine whether using CGM in management of GDM will improve outcomes.</p>
+			<h3 gate:gateId="103">Glucose target</h3>
+			<p gate:gateId="104">The ACOG recommends the following targets, 
+	
+				<Activity gate:gateId="321">with insulin therapy initiated</Activity>
+				<Condition gate:gateId="322">if they are exceeded.</Condition></p>
+			<Condition gate:gateId="322">
+				<ul gate:gateId="105">
+					<li gate:gateId="106">
+						<RawNominalConcept gate:gateId="23765" id="23347" rule="MakeKBTA">Fasting blood glucose concentration</RawNominalConcept>? 95 mg/dL (
+		
+						<RawNominalConcept gate:gateId="23766" id="23348" rule="MakeKBTA">5.3 mmol/L</RawNominalConcept>
+						)</li>
+					<li gate:gateId="107">One hour-
+		
+						<LogicAbstraction gate:gateId="23767" id="23462" rel="AND" rule="MakeKBTA">
+							<ValueAbstraction gate:gateId="23768" id="23463" rule="MakeKBTA">
+								<ValueAbstraction gate:gateId="23769" id="23350" rule="MakeKBTA">
+									<RawNumericConcept gate:gateId="23770" id="23349" rule="MakeKBTA">postprandial glucose</RawNumericConcept>
+									&lt; 130 to 140 mg</ValueAbstraction>/dL (7.2 to 7.8 mmol/L)</ValueAbstraction>
+						</LogicAbstraction>or</li>
+					<li gate:gateId="108">Two 
+		
+						<RawNominalConcept gate:gateId="23771" id="23351" rule="MakeKBTA">hour-postprandial blood concentration</RawNominalConcept>
+						≤ 120 mg/dL (6.7 mmol/L)</li>
+				</ul>
+			</Condition>
+			<p gate:gateId="109">In 'Hospital de Sabadell', we recommend the patients to measure postprandial blood glucose one hour after the first bite of each meal. For one-hour postprandial glucose, 140 mg/dL is considered the bound to detect anomalous glycemic control.</p>
+			<p gate:gateId="110">Little guidance is available as to what proportion of measurements exceeding these thresholds should trigger intervention. Insulin should be considered if elevated blood glucose is observed (see 5.3.1 Insulin).</p>
+			<p gate:gateId="111">Once insulin has been started, the glucose values considered as a goal of treatment will be those recommended by the 5th Workshop-Conference on Gestational Diabetes Mellitus:</p>
+			<ul gate:gateId="112">
+				<li gate:gateId="113">Fasting blood glucose concentration &lt; 95 mg/dL (5.3 mmol/L)</li>
+				<li gate:gateId="114">Sixty-90 minutes-postprandial glucose ≤ 120 mg/dL (6.7 mmol/L)</li>
+			</ul>
+			<h2 gate:gateId="115">Glycated hemoglobin</h2>
+			<p gate:gateId="116">
+				<Activity gate:gateId="319">Glycated hemoglobin (A1C) may be a helpful test</Activity>in assessing glycemic control during pregnancy, particullarly 
+	
+				<Condition gate:gateId="320">
+					when 
+		
+					<ValueAbstraction gate:gateId="23772" id="23358" rule="MakeKBTA">
+						<RawNominalConcept gate:gateId="23773" id="23357" rule="MakeKBTA">overt diabetes</RawNominalConcept>
+						is suspected</ValueAbstraction>
+				</Condition>. It should be noted that A1C values tend to be lower in pregnant compared to nonpregnant women because the average blood glucose concentration is about 20 percent lower in pregnant women and, in the first half of pregnancy, there is a rise in red cell mass and a slight decrease in red blood cell life span.</p>
+			<h2 gate:gateId="117">
+				<Activity gate:gateId="244">Ketonuria</Activity>
+			</h2>
+			<p gate:gateId="118">Although there is conflicting evidence as to whether ketonuria is associated with an adverse effect on cognitive development of the fetus, 
+	
+				<Activity gate:gateId="318">we routinely monitor fasting urinary ketones</Activity>
+				<Condition gate:gateId="317">
+					in 
+		
+					<LogicAbstraction gate:gateId="23774" id="23464" rel="AND" rule="MakeKBTA">
+						<ValueAbstraction gate:gateId="23775" id="23465" rule="MakeKBTA">women with</ValueAbstraction></LogicAbstraction>GDM</Condition>. The patient measures ketonuria using urine strips. Monitor ketonuria routinely means to measure ketones in the urine every day at fasting conditions. If ketonuria is suspected by the patient along the day, she could decide to additionally measure ketonuria before lunch or dinner. 
+	
+				<DeclarativeK gate:gateId="246">The results of ketonuria could be: a) positive (++); b) positive (+); c) negative (+/-); d) negative (-); e) negative (--).</DeclarativeK></p>
+			<p gate:gateId="119">Ketonuria indicates that the person is in a catabolic state and is breaking down fat, and can occur in anyone who has a negative caloric balance. Pregnant women develop elevated ??-hydroxybutyrate levels more rapidly than nonpregnant individuals during a 12- to 18-hour fast, and it is not known whether such elevated levels have an adverse impact on fetal development. Several studies have suggested that early maternal malnutrition can affect neurobehavioral development in children of women with diabetes. In one such study, plasma beta-hydroxybutyrate levels independent of glucose levels had an adverse association with cognitive development in pregnancies in women with prepregnancy diabetes, GDM, and in normal pregnancies.</p>
+			<p gate:gateId="120">
+				<Condition act_Id="248" gate:gateId="247">If 
+		
+					<PatternAbstraction gate:gateId="23637" id="23361" rule="MakeKBTA">
+						<ValueAbstraction gate:gateId="23638" id="23360" rule="MakeKBTA">
+							<RawNominalConcept gate:gateId="23639" id="23359" rule="MakeKBTA">ketonuria</RawNominalConcept>
+							is negative</ValueAbstraction>for two weeks</PatternAbstraction>
+				</Condition>,
+	
+				<Activity gate:gateId="248">the patient is recommended to measure ketonuria 2 or 3 times a week</Activity>
+				. 
+	
+				<Condition act_Id="[251, 253, 255, 257]" gate:gateId="249">
+					In 
+		
+					<RawNominalConcept gate:gateId="23642" id="23440" rule="MakeKBTA">case of ketonuria</RawNominalConcept>
+					<RawNominalConcept gate:gateId="23643" id="23363" rule="MakeKBTA">detection</RawNominalConcept>
+					(the number of ketonuria measurements with result &quot;positive&quot; is equal or higher than 3 in a period of time of one week):</Condition>
+			</p>
+			<ul gate:gateId="121">
+				<li gate:gateId="122">
+					<Condition act_Id="251" gate:gateId="250">If the patient was COMPLIANT with the 
+		
+						<RawNominalConcept gate:gateId="23644" id="23367" rule="MakeKBTA">prescribed diet</RawNominalConcept></Condition>, 
+	
+					<Activity gate:gateId="251">the nurse decides to increase the carbohydrates intake either at dinner or at bedtime: the amount of carbohydrates at dinner or at bedtime is increased by 1 unit (10 grams)</Activity>
+					. 
+	
+					<Condition act_Id="253" gate:gateId="252">
+						If post-dinner or 
+		
+						<LogicAbstraction gate:gateId="23645" id="23468" rel="AND" rule="MakeKBTA">
+							<ValueAbstraction gate:gateId="23646" id="23469" rule="MakeKBTA">
+								<RawNominalConcept gate:gateId="23647" id="23368" rule="MakeKBTA">fasting glucose values</RawNominalConcept>
+								achieve the threshold for 
+				
+								<RawNominalConcept gate:gateId="23648" id="23369" rule="MakeKBTA">insulin treatment</RawNominalConcept>
+								as a consequence of increasing the amount of carbohydrates</ValueAbstraction>
+						</LogicAbstraction>
+					</Condition>, 
+	
+					<Activity gate:gateId="253">starting insulin would be the best option.</Activity></li>
+				<li gate:gateId="123">
+					<Condition act_Id="255" gate:gateId="254">If the patient was NOT COMPLIANT with 
+		
+						<RawNominalConcept gate:gateId="23649" id="23370" rule="MakeKBTA">the prescribed diet</RawNominalConcept></Condition>, 
+	
+					<Activity gate:gateId="255">the nurse insists the patient on the importance of eating enough carbohydrates</Activity>
+					. 
+	
+					<Condition act_Id="257" gate:gateId="256">
+						If the situation is kept for 
+		
+						<LogicAbstraction gate:gateId="23650" id="23470" rel="AND" rule="MakeKBTA">
+							<ValueAbstraction gate:gateId="23651" id="23471" rule="MakeKBTA">
+								<RawNominalConcept gate:gateId="23652" id="23244" rule="MakeKBTA">
+									<Context gate:gateId="23653" id="23245" rule="MakeKBTA">more than 1</Context></RawNominalConcept>additional week</ValueAbstraction>
+						</LogicAbstraction>
+					</Condition>, 
+	
+					<Activity gate:gateId="257">insulin therapy should be started</Activity>
+					.</li>
+			</ul>
+			<h1 gate:gateId="124">Therapy</h1>
+			<h2 gate:gateId="125">
+				<Activity gate:gateId="258">Nutrition</Activity>
+			</h2>
+			<p gate:gateId="126">
+				<Condition gate:gateId="315">Patients with GDM</Condition>
+				<Activity gate:gateId="316">should receive nutritional counseling upon diagnosis and be placed on an appropriate diet</Activity>. The goals of medical nutritional therapy are to:</p>
+			<ul gate:gateId="127">
+				<li gate:gateId="128">Achieve normoglycemia (see ACOG recommendation in 4.1.1 Glucose target)</li>
+				<li gate:gateId="129">Prevent ketosis</li>
+				<li gate:gateId="130">Provide adequate weight gain</li>
+				<li gate:gateId="131">Contribute to fetal well-being</li>
+			</ul>
+			<p gate:gateId="132">There is scanty level evidence to support most aspects of the 
+	
+				<Activity gate:gateId="259">nutritional prescription for GDM</Activity>
+				.</p>
+			<p gate:gateId="133">In clinical practice, women often require 1600 to 2200 kcal per day.</p>
+			<table border="1" gate:gateId="134">
+				<tbody gate:gateId="135">
+					<tr gate:gateId="136">
+						<th gate:gateId="137">Weight during pregnancy</th>
+						<th gate:gateId="138">Caloric requirement (kcal/kg/day)</th>
+					</tr>
+					<tr gate:gateId="139">
+						<td gate:gateId="140">Underweight</td>
+						<td gate:gateId="141">40</td>
+					</tr>
+					<tr gate:gateId="142">
+						<td gate:gateId="143">Ideal body weight</td>
+						<td gate:gateId="144">30</td>
+					</tr>
+					<tr gate:gateId="145">
+						<td gate:gateId="146">Overweight</td>
+						<td gate:gateId="147">22 to 25</td>
+					</tr>
+					<tr gate:gateId="148">
+						<td gate:gateId="149">Morbidly obese</td>
+						<td gate:gateId="150">12 to 14</td>
+					</tr>
+				</tbody>
+			</table>
+			<p gate:gateId="151">Once the caloric needs are calculated, carbohydrate intake needs to be distributed across meals and snacks to blunt postprandial hyperglycemia. Carbohydrate intake is limited to less than 55 percent of total calories and should be distributed in 3 main meals and 2-3 snacks. In order to avoid fasting ketonuria and facilitate post-dinner glucose control, a bed-time snack may be needed. As a general recommendation, 
+	
+				<Activity gate:gateId="314">the patients are informed that complex carbohydrates, such as those in starches and vegetables, are more nutrient dense and raise postprandial blood glucose concentrations less than simple sugars, which should be avoided</Activity>
+				.</p>
+			<p gate:gateId="152">Close follow-up is important to ensure nutritional adequacy. Individual assessment and self blood glucose monitoring are used to determine and modify specific nutrition/food recommendations. 
+	
+				<Condition act_Id="263" gate:gateId="262">
+					If the patient acknowledges that she is not following nutritional prescription 
+		
+					<Context gate:gateId="23654" id="23247" rule="MakeKBTA">more than once</Context></Condition>, 
+	
+				<Activity gate:gateId="263">she receives specific recommendations about the importance of following nutritional prescription.</Activity></p>
+			<p gate:gateId="153">If insulin therapy is added to nutrition therapy, a primary goal is to maintain carbohydrate consistency at meals and snacks to facilitate insulin adjustments. This decision is taken by nurse + physician.</p>
+			<h2 gate:gateId="154">
+				<Activity gate:gateId="264">Exercise</Activity>
+			</h2>
+			<p gate:gateId="155">The value of exercise in women with GDM requires further exploration to determine the potential range of benefits. Nevertheless, based on the data available in pregnant and in nonpregnant individuals, 
+	
+				<Activity gate:gateId="265">we recommend the regular practice (? 4days/week) of light or moderate exercise (16 - 28 METs hours per week)</Activity>
+				as part of the treatment plan 
+				<Condition act_Id="265" gate:gateId="266">
+					for 
+					<LogicAbstraction gate:gateId="23655" id="23472" rel="AND" rule="MakeKBTA">
+						<ValueAbstraction gate:gateId="23656" id="23473" rule="MakeKBTA">
+							women with GDM and no medical or 
+							<RawNominalConcept gate:gateId="23657" id="23377" rule="MakeKBTA">obstetrical contraindications</RawNominalConcept>
+							to 
+							<RawNominalConcept gate:gateId="23658" id="23443" rule="MakeKBTA">this level of physical activity</RawNominalConcept></ValueAbstraction>
+					</LogicAbstraction>.</Condition>
+			</p>
+			<p gate:gateId="156">
+				<Condition act_Id="268" gate:gateId="267">If the patient does 
+					<LogicAbstraction gate:gateId="23659" id="23474" rel="AND" rule="MakeKBTA">
+						<ValueAbstraction gate:gateId="23660" id="23475" rule="MakeKBTA">
+							<RawNominalConcept gate:gateId="23661" id="23379" rule="MakeKBTA">not follow recommendations</RawNominalConcept>
+							related to 
+							<RawNominalConcept gate:gateId="23662" id="23380" rule="MakeKBTA">physical activity</RawNominalConcept></ValueAbstraction>
+					</LogicAbstraction>
+				</Condition>, 
+				<Activity gate:gateId="268">she is insisted by the nurse on the importance of following the recommended practice of physical activity.</Activity></p>
+			<p gate:gateId="157">This section of the general guideline will be further developed in more detail.</p>
+			<h2 gate:gateId="158">
+				<Activity gate:gateId="269">Pharmacologic therapy</Activity>
+			</h2>
+			<p gate:gateId="159">
+				<Condition gate:gateId="312">If 
+					<LogicAbstraction gate:gateId="23663" id="23476" rel="AND" rule="MakeKBTA">
+						<ValueAbstraction gate:gateId="23664" id="23477" rule="MakeKBTA">
+							<RawNominalConcept gate:gateId="23665" id="23381" rule="MakeKBTA">
+								<ValueAbstraction gate:gateId="23666" id="23382" rule="MakeKBTA">normoglycemia cannot be maintained</ValueAbstraction></RawNominalConcept>by medical nutritional therapy</ValueAbstraction>
+					</LogicAbstraction>
+				</Condition>, 
+				<Activity gate:gateId="313">then anti-hyperglycemic agents should be initiated</Activity>
+				. There is only one option in pregnant patients who require medical therapy aimed at controlling blood glucose: insulin (and some insulin analogs), which is the only recommended approach in Spain.</p>
+			<h3 gate:gateId="160">Insulin</h3>
+			<p gate:gateId="161">
+				<Condition gate:gateId="309">Women with 
+					<RawNominalConcept gate:gateId="23667" id="23384" rule="MakeKBTA">GDM</RawNominalConcept></Condition>
+				<Activity gate:gateId="310">are placed on insulin therapy</Activity>
+				<Condition gate:gateId="311">when 
+					<LogicAbstraction gate:gateId="23668" id="23478" rel="AND" rule="MakeKBTA">
+						<ValueAbstraction gate:gateId="23669" id="23479" rule="MakeKBTA">
+							<ValueAbstraction gate:gateId="23670" id="23387" rule="MakeKBTA">
+								<RawOrdinalConcept gate:gateId="23671" id="23386" rule="MakeKBTA">target glucose levels</RawOrdinalConcept>
+								are exceeded</ValueAbstraction>despite 
+							<RawNominalConcept gate:gateId="23672" id="23388" rule="MakeKBTA">dietary therapy</RawNominalConcept></ValueAbstraction>
+					</LogicAbstraction>
+				</Condition>.</p>
+			<p gate:gateId="162">In the two randomized trials in which diagnosis and treatment of mild GDM improved outcomes, only 20 and 8 percent of women, respectively, required insulin, while 80 and 92 percent of women, respectively, were treated satisfactorily with diet.</p>
+			<p gate:gateId="163">
+				<Activity gate:gateId="270">Insulin therapy is started</Activity>
+				<Condition act_Id="270" gate:gateId="271">if two or more elevated values are observed in a week period in the same interval</Condition>(fasting, postprandial Breakfast, postprandial LUNCH, postprandial DINNER). The endocrinologist is the person who takes the decision to start insulin therapy.</p>
+			<p gate:gateId="164">
+				<Condition act_Id="274" gate:gateId="272">If only two 
+					<LogicAbstraction gate:gateId="23673" id="23480" rel="AND" rule="MakeKBTA">
+						<ValueAbstraction gate:gateId="23674" id="23481" rule="MakeKBTA">
+							<RawNominalConcept gate:gateId="23675" id="23389" rule="MakeKBTA">blood glucose</RawNominalConcept>
+							<ValueAbstraction gate:gateId="23676" id="23391" rule="MakeKBTA">
+								<RawOrdinalConcept gate:gateId="23677" id="23390" rule="MakeKBTA">targets</RawOrdinalConcept>
+								are exceeded</ValueAbstraction>in one 
+							<RawNominalConcept gate:gateId="23678" id="23392" rule="MakeKBTA">specific measurement</RawNominalConcept>
+							point</ValueAbstraction>
+					</LogicAbstraction>
+				</Condition>(fasting, 1-hour postprandial breakfast, 1-hour postprandial lunch, 1-hour postprandial dinner) 
+				<Condition act_Id="274" gate:gateId="273">and the threshold is exceeded by less than 15 mg/dL</Condition>
+				, 
+				<Activity gate:gateId="274">then two situations are considered (only for the first time these situations are detected):</Activity></p>
+			<ul gate:gateId="165">
+				<li gate:gateId="166">
+					<Condition gate:gateId="307">If the patient was NOT COMPLIANT with the 
+						<LogicAbstraction gate:gateId="23679" id="23482" rel="AND" rule="MakeKBTA">
+							<ValueAbstraction gate:gateId="23680" id="23483" rule="MakeKBTA">
+								prescribed diet (diet intake higher than the recommended amount of carbohydrates or eating not recommended food (such as 
+								<RawNominalConcept gate:gateId="23681" id="23395" rule="MakeKBTA">ice</RawNominalConcept>
+								cream, buns, cakes, packaged juice, 
+								<RawNominalConcept gate:gateId="23682" id="23396" rule="MakeKBTA">plain sugar</RawNominalConcept>
+								, or 
+								<RawNominalConcept gate:gateId="23683" id="23397" rule="MakeKBTA">chocolate</RawNominalConcept>
+								) or eating snacks not included in the prescribed diet)</ValueAbstraction>
+						</LogicAbstraction>
+					</Condition>
+					<Activity gate:gateId="308">then the nurse or the doctor motivate the patient to be compliant with the diet.</Activity>
+					<Condition act_Id="278" gate:gateId="277">If the patient was 
+						<LogicAbstraction gate:gateId="23684" id="23484" rel="AND" rule="MakeKBTA">
+							<ValueAbstraction gate:gateId="23685" id="23485" rule="MakeKBTA">
+								<RawNominalConcept gate:gateId="23686" id="23399" rule="MakeKBTA">not compliant</RawNominalConcept>
+								for three or more different meals in a period of one week, and blood glucose is elevated as a 
+								<RawNominalConcept gate:gateId="23687" id="23401" rule="MakeKBTA">result</RawNominalConcept>
+								of non- compliance to nutritional prescription,</ValueAbstraction>
+						</LogicAbstraction>
+					</Condition>
+					<Activity gate:gateId="278">insulin therapy should be started.</Activity>
+				</li>
+				<li gate:gateId="167">
+					<Condition act_Id="280" gate:gateId="279">If the patient was COMPLIANT with the prescribed diet </Condition>
+					<Activity gate:gateId="280">then the nurse or the doctor can postpone starting insulin therapy by changing the nutritional prescription at lunch or dinner.</Activity>E.g. two 1h post-dinner values of 142; 145 in a women eating more than or equal to 50 carbohydrate grams for dinner, with persistant negative fasting ketonuria. In this example the reduction at dinner of 10 grams of carbohydrates could be enough for glucose normality restoration. See table for other situations:</li>
+				<table border="1" gate:gateId="168">
+					<tbody gate:gateId="169">
+						<tr gate:gateId="170">
+							<th gate:gateId="171">Breakfast?</th>
+							<th gate:gateId="172">Lunch</th>
+							<th gate:gateId="173">Dinner</th>
+						</tr>
+						<tr gate:gateId="174">
+							<td gate:gateId="175">Diet 1600 kcal</td>
+							<td gate:gateId="176">60 g CARBS --&gt; 50 g CARBS</td>
+							<td gate:gateId="177">50 g CARBS --&gt; 40 g CARBS</td>
+						</tr>
+						<tr gate:gateId="178">
+							<td gate:gateId="179">Diet 1800 kcal</td>
+							<td gate:gateId="180">85 g CARBS --&gt; 75 g CARBS</td>
+							<td gate:gateId="181">55 g CARBS --&gt; 45 g CARBS</td>
+						</tr>
+						<tr gate:gateId="182">
+							<td gate:gateId="183">Diet 2000 kcal</td>
+							<td gate:gateId="184">85 g CARBS --&gt; 75 g CARBS</td>
+							<td gate:gateId="185">75 g CARBS --&gt; 65 g CARBS</td>
+						</tr>
+					</tbody>
+				</table>
+			</ul>
+			<p gate:gateId="186">Furthermore, the newborn weight prognosis based on ultrasoud measurements may be taken into account in the decision of starting insulin therapy; For fetus considered large for gestational age, one hour-postprandial glucose values above 120 mg/dL are enough for starting insulin. On the contrary, when the fetus is considered small for gestational age, 140 mg/dl should be the threshold value for considering insulin treatment. Definition of Small Gestational Age (percentile ? 10) and Large Gestational Age (percentile &gt; 90).</p>
+			<p gate:gateId="187">The dose and type of insulin used is calculated based upon the specific abnormality of blood glucose noted during monitoring. One principle we have found useful is to start with the simplest regimen and increase the complexity as needed to address the particular situation. 
+				<Condition gate:gateId="303">
+					If the post-dinner 
+					<ValueAbstraction gate:gateId="23688" id="23410" rule="MakeKBTA">
+						<RawOrdinalConcept gate:gateId="23689" id="23409" rule="MakeKBTA">glucose level</RawOrdinalConcept>
+						is elevated</ValueAbstraction>
+				</Condition>, 
+				<Activity gate:gateId="305">then an injection of rapid acting insulin is given just prior to dinner. Additional doses of rapid acting insulin can be necessary to maintain euglycemia after breakfast or lunch</Activity>
+				. 
+				<Condition gate:gateId="304">
+					If 
+					<ValueAbstraction gate:gateId="23690" id="23412" rule="MakeKBTA">
+						<RawOrdinalConcept gate:gateId="23691" id="23411" rule="MakeKBTA">fasting glucose</RawOrdinalConcept>
+						is elevated</ValueAbstraction>
+				</Condition>, 
+				<Activity gate:gateId="306">intermediate acting insulin can be given at bedtime</Activity>
+				, then a total of four injections per day are needed.</p>
+			<p gate:gateId="188">In summary:</p>
+			<ul gate:gateId="189">
+				<li gate:gateId="190">
+					<Condition gate:gateId="296">If 
+						<LogicAbstraction gate:gateId="23692" id="23486" rel="AND" rule="MakeKBTA">
+							<ValueAbstraction gate:gateId="23693" id="23487" rule="MakeKBTA">
+								<ValueAbstraction gate:gateId="23694" id="23414" rule="MakeKBTA">
+									<RawNominalConcept gate:gateId="23695" id="23413" rule="MakeKBTA">insulin</RawNominalConcept>
+									is required</ValueAbstraction>because the 
+								<ValueAbstraction gate:gateId="23696" id="23416" rule="MakeKBTA">fasting blood glucose concentration is high</ValueAbstraction></ValueAbstraction>
+						</LogicAbstraction>
+					</Condition>, 
+					<Activity gate:gateId="297">an intermediate-acting insulin (NPH insulin), is given before bedtime; an initial dose of 0.1-0.15 unit/kg body weight is utilized.</Activity></li>
+				<li gate:gateId="191">
+					<Condition gate:gateId="298">If 
+						<ValueAbstraction gate:gateId="23697" id="23418" rule="MakeKBTA">
+							postprandial 
+							<RawOrdinalConcept gate:gateId="23698" id="23417" rule="MakeKBTA">blood glucose concentrations</RawOrdinalConcept>
+							are high</ValueAbstraction>
+					</Condition>, 
+					<Activity gate:gateId="299">insulin aspart or insulin lispro is given before meals at an initial dose of 4-6 units</Activity>
+					.</li>
+				<li gate:gateId="192">
+					<Condition gate:gateId="295">In a severely 
+						<LogicAbstraction gate:gateId="23699" id="23488" rel="AND" rule="MakeKBTA">
+							<ValueAbstraction gate:gateId="23700" id="23489" rule="MakeKBTA">
+								<ValueAbstraction gate:gateId="23701" id="23253" rule="MakeKBTA">
+									<RawNominalConcept gate:gateId="23702" id="23252" rule="MakeKBTA">obese</RawNominalConcept>
+									woman</ValueAbstraction>
+							</ValueAbstraction>
+						</LogicAbstraction>
+					</Condition>,
+					<Activity gate:gateId="300">the initial doses of insulin may need to be increased to overcome the combined insulin resistance of pregnancy and obesity</Activity>
+					. This should be personalized by the endocrinologist according to each patient???s characteristics.</li>
+			</ul>
+			<p gate:gateId="193">Subsequent (weekly) adjustments in the various components of the insulin regimen are made based upon the corresponding glucose levels. Because any insulin regimen requires serial readjustment of dosage in response to specific fasting or postprandial glucose levels, the starting dose should be considered just that, a starting point. Adjustments in insulin dosage may be done to achieve the above mentioned objectives.</p>
+			<p gate:gateId="194">
+				<Condition gate:gateId="292">
+					<LogicAbstraction gate:gateId="23703" id="23490" rel="AND" rule="MakeKBTA">
+						<ValueAbstraction gate:gateId="23704" id="23491" rule="MakeKBTA">Hypoglycemia remote from meal or snack 
+							<RawNominalConcept gate:gateId="23705" id="23420" rule="MakeKBTA">time</RawNominalConcept></ValueAbstraction>
+					</LogicAbstraction>
+				</Condition>is rare
+				<Condition gate:gateId="293">
+					in 
+					<LogicAbstraction gate:gateId="23706" id="23492" rel="AND" rule="MakeKBTA">
+						<ValueAbstraction gate:gateId="23707" id="23493" rule="MakeKBTA">women with GDM</ValueAbstraction></LogicAbstraction>
+				</Condition>, and 
+				<Activity gate:gateId="301">is treated by administering 10 to 20 g of a simple sugar like orange juice or non-fat milk</Activity>
+				. The patient is instructed to take this decision after getting a measure of blood glucose. 
+				<Condition gate:gateId="294">
+					If 
+					<LogicAbstraction gate:gateId="23708" id="23494" rel="AND" rule="MakeKBTA">
+						<ValueAbstraction gate:gateId="23709" id="23495" rule="MakeKBTA">
+							<RawOrdinalConcept gate:gateId="23710" id="23422" rule="MakeKBTA">low glucose values</RawOrdinalConcept>
+							are encountered 
+							<Context gate:gateId="23711" id="23257" rule="MakeKBTA">more than once</Context>
+							at the same time of day</ValueAbstraction>
+					</LogicAbstraction>
+				</Condition>, 
+				<Activity gate:gateId="302">insulin doses are adjusted downward accordingly</Activity>
+				.</p>
+			<p gate:gateId="195">Long-acting insulin analogs (insulin glargine, insulin detemir) have not been studied extensively in pregnancy. However, insulin detemir has been recently approved by the EMEA for the treatment of women with diabetes and pregnancy. In vitro perfusion studies have demonstrated that insulin glargine does not cross the placenta, however, concern about transplacental transfer of glargine in vivo remains. Based on available data, we prefer use of human NPH insulin as part of a multiple injection regimen in pregnant women with GDM.</p>
+			<h3 gate:gateId="196">Oral anti-hyperglycemic agents</h3>
+			<p gate:gateId="197">A systematic review by the Johns Hopkins University Evidence-based Practice Center for the Agency for Healthcare Research and Quality presented evidence from randomized trials and observational studies that:</p>
+			<ol gate:gateId="198">
+				<li gate:gateId="199">maternal glucose levels did not differ substantially between gravidae treated with insulin versus those treated with oral glucose-lowering agents, and</li>
+				<li gate:gateId="200">there was no consistent evidence of an increase in any adverse maternal or neonatal outcome with use of glyburide, acarbose, or metformin compared with use of insulin.</li>
+			</ol>
+			<p gate:gateId="201">The ADA and ACOG do not endorse the use of oral anti-hyperglycemic agents during pregnancy and such therapy has not been approved by the Unites States Food and Drug Administration for treatment of GDM. We concur, but metformin may be a good complement to diet (plus insulin if required) in obese women. This should be personalized according to each patient's characteristics. However, metformin crosses the placenta and, in one study, cord arterial levels were twice as high as maternal venous levels.</p>
+			<h1 gate:gateId="202">Obstetric management</h1>
+			<p gate:gateId="203">Obstetric management will be similar to the usually applied for non GDM women. However, it is advised to add an additional US study during 28-32 gestational week to detect macrosomia.</p>
+			<h2 gate:gateId="204">Peripartum management</h2>
+			<p gate:gateId="205">Maternal hyperglycemia should be avoided during labor to reduce the risk of fetal acidosis and neonatal hypoglycemia. The risk of adverse neonatal metabolic outcomes (hypoglycemia, hyperbilirubinemia, hypocalcemia, erythremia) is related to both antepartum and intrapartum maternal hyperglycemia and appears to increase with the degree of maternal hyperglycemia. A protocol for intrapartum metabolic control is being applied which includes e.v. insulin perfusion/ dextrose serum. However, for almost all women with gestational diabetes, no insulin treatment is needed during labour and we are going to review this part of the protocol in order to simplify it.</p>
+			<h1 gate:gateId="206">Future risks</h1>
+			<p gate:gateId="207">Most women with GDM are normoglycemic after delivery. However, they are at high risk for recurrent GDM, prediabetes (impaired glucose tolerance or impaired fasting glucose), and overt diabetes over the subsequent five years.</p>
+			<h2 gate:gateId="208">Recurrence</h2>
+			<p gate:gateId="209">One-third to two-thirds of women with GDM will have GDM in a subsequent pregnancy. Women who have a recurrence tend to be older, more parous, and have a greater increase in weight between their pregnancies than women without a recurrence. Higher infant birth weight in the index pregnancy and higher maternal prepregnancy weight have also been associated with recurrent GDM.</p>
+			<h2 gate:gateId="210">Long-term risk of diabetes</h2>
+			<p gate:gateId="211">A history of GDM is predictive of an increased risk of developing type 2 diabetes, type 1 diabetes, and cardiovascular disease.</p>
+			<ul gate:gateId="212">
+				<li gate:gateId="213">As many as 20 percent of women with GDM have impaired glucose tolerance during the early postpartum period.</li>
+				<li gate:gateId="214">A systematic review and meta-analysis found that women with GDM were at significantly higher risk of developing subsequent type 2 diabetes than women with normoglycemic pregnancies (RR 7.43, 95% CI 4.79-11.51; 20 cohort studies including 675,455 women of who 10,859 had type 2 diabetes). The relative risk was 4.69 within the first five years after delivery and 9.34 more than five years after delivery. In fact, 10 to 31 percent of parous nonpregnant women with diabetes have experienced a pregnancy complicated by GDM prior to their diagnosis.</li>
+				<li gate:gateId="215">Waist circumference and BMI are the strongest anthropometric measures associated with development of type 2 diabetes in women with GDM. Type 2 diabetes develops in 50 to 75 percent of 
+					<ValueAbstraction gate:gateId="23712" id="23301" rule="MakeKBTA">obese</ValueAbstraction>
+					<LogicAbstraction gate:gateId="23713" id="23453" rel="OR" rule="MakeKBTA">
+						(BM
+						<RawNominalConcept gate:gateId="23714" id="23445" rule="MakeKBTA">I</RawNominalConcept>
+						? 30 kg/m2)</LogicAbstraction>women with a history of GDM versus fewer than 25 percent of women with GDM who achieve normal body weight after delivery. Other major risk factors are gestational requirement for insulin and early gestational age at the time of diagnosis (ie, less than 24 weeks of 
+					<RawNominalConcept gate:gateId="23715" id="23447" rule="MakeKBTA">gestation)</RawNominalConcept>
+					. Additional risk factors for impaired glucose tolerance and overt diabetes later in life include autoantibodies (eg, glutamic acid decarboxylase, insulinoma antigen-2), high fasting blood glucose concentrations during pregnancy and early postpartum, higher fasting blood glucose at diagnosis of GDM and high glucose levels in oral glucose tolerance testing, neonatal hypoglycemia, and GDM in more than one pregnancy. Parity, large birth weight, and diabetes in a first-degree relative are less correlated with later diabetes.</li>
+				<li gate:gateId="216">GDM is also a risk factor for the development of type 1 diabetes, particularly in populations with a high prevalence of this disorder. In our country there is no recent data but one study found that more than 13% of women with GDM have positivity to islet cell antibodies (ICA). Thus, if there is suspected the possibility of type 1 diabetes, determination of plasma autoimmune markers are mandatory (GAD65 Ab; IAA).</li>
+				<li gate:gateId="217">Women with GDM are at higher risk of developing cardiovascular disease and developing it at a younger age than women with no history of GDM.</li>
+			</ul>
+			<h2 gate:gateId="218">Follow-up and prevention of type 2 diabetes</h2>
+			<p gate:gateId="219">ACOG, the ADA and the Fifth International Workshop Conference on Gestational Diabetes recommend long-term follow-up of women with GDM:</p>
+			<p gate:gateId="220">
+				<Condition gate:gateId="285">All women with previous GDM</Condition>
+				<Activity gate:gateId="286">should undergo an oral glucose tolerance test 6 to 12 weeks after delivery, using a two-hour 75 gram oral glucose tolerance test</Activity>. An abnormal fasting blood glucose level is diagnostic (diabetes if ? 126 mg/dL, impaired fasting glucose (IFG) if 100 to 125 mg/dL); however, sensitivity for diagnosis of diabetes is low. Impaired glucose tolerance (IGT) is diagnosed if the two-hour value is 140 to 199 mg/dL. Collectively, IFG and IGT are known as &quot;prediabetes.&quot;</p>
+			<ul gate:gateId="221">
+				<li gate:gateId="222">Women with an abnormal oral glucose tolerance test are then classified as having prediabetes or overt diabetes mellitus</li>
+				<li gate:gateId="223">
+					<Condition gate:gateId="284">Those with 
+						<RawNominalConcept gate:gateId="23716" id="23428" rule="MakeKBTA">prediabetes</RawNominalConcept></Condition>
+					<Activity gate:gateId="287">should be counseled about their subsequent risk for developing overt diabetes and referred for discussion of management options (eg, lifetime modification such as medical nutritional therapy, indications for metformin). They should try to achieve their ideal body weight through diet and exercise and, if possible, they should avoid drugs that may adversely affect glucose tolerance (eg, glucocorticoids). They should have yearly assessment of glycemic status</Activity>.</li>
+				<li gate:gateId="224">
+					<Condition gate:gateId="281">A woman who has 
+						<RawNominalConcept gate:gateId="23717" id="23429" rule="MakeKBTA">overt diabetes mellitus</RawNominalConcept></Condition>
+					<Activity gate:gateId="288">should receive appropriate education and treatment</Activity>. 
+					<Activity gate:gateId="289">She should also be given advice regarding contraception and the planning of future pregnancies</Activity>
+					.</li>
+				<li gate:gateId="225">
+					<Condition gate:gateId="282">Women with 
+						<LogicAbstraction gate:gateId="23718" id="23496" rel="AND" rule="MakeKBTA">
+							<ValueAbstraction gate:gateId="23719" id="23497" rule="MakeKBTA">
+								prediabetes or 
+								<RawNominalConcept gate:gateId="23720" id="23431" rule="MakeKBTA">overt diabetes</RawNominalConcept></ValueAbstraction>
+						</LogicAbstraction>
+					</Condition>
+					<Activity gate:gateId="290">should be counseled regarding the importance of good metabolic control prior to any future pregnancies</Activity>.</li>
+				<li gate:gateId="226">
+					<Condition gate:gateId="283">Women with 
+						<RawNominalConcept gate:gateId="23721" id="23432" rule="MakeKBTA">normal glucose tolerance</RawNominalConcept></Condition>
+					<Activity gate:gateId="291">should be counseled regarding their risk of developing GDM in subsequent pregnancies and type 2 diabetes in the future</Activity>. Lifestyle interventions (weight loss, exercise) are clearly beneficial for reducing the incidence of these disorders. Drug therapy (eg, metformin) also may have a role in preventing future type 2 diabetes.</li>
+			</ul>
+			<h1 gate:gateId="227">References</h1>
+			<p gate:gateId="228">Adapted from</p>
+			<ul gate:gateId="229">
+				<li gate:gateId="230">Screening and Diagnosis of diabetes mellitus during pregnancy. Treatment and course of gestational diabetes mellitus. Up to Date. Authors: Donald R Coustan, MD; Lois Jovanovic, MD</li>
+				<li gate:gateId="231">Guia asistencial de diabetes mellitus y embarazo. Grupo Espanol de Diabetes y Embarazo. Av.Diabetol 2006;22:73-87</li>
+				<li gate:gateId="232">Screening and diagnosis of gestational diabetes mellitus. Obstet Gynecol 2011;118:751-2. Committee opinion on Obstetric Practice</li>
+			</ul>
+		</body>
+	</cpg>
+</html>

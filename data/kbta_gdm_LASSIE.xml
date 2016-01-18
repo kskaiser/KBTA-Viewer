@@ -1,0 +1,2385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Knowledge-Base>
+    <ValueAbstractionConcept id="122881" name="pregnant women non previously diagnosed of GDM" description="pregnant women non previously diagnosed of GDM" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122880" ConceptName="pregnant women non previously diagnosed of GDM"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122880" ConceptName="pregnant women non previously diagnosed of GDM"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122880" name="pregnant women non previously diagnosed of GDM" description="pregnant women non previously diagnosed of GDM" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122710" ConceptName="GDM"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122883" name="All the pregnant women non previously" description="All the pregnant women non previously" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122882" ConceptName="All the pregnant women non previously"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122882" ConceptName="All the pregnant women non previously"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122882" name="All the pregnant women non previously" description="All the pregnant women non previously" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122711" ConceptName="Pregnant"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122885" name="normal O'Sullivan test but who develop complications suggesting GDM (macrosomia, polihydramnios)" description="normal O'Sullivan test but who develop complications suggesting GDM (macrosomia, polihydramnios)" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122884" ConceptName="normal O'Sullivan test but who develop complications suggesting GDM (macrosomia, polihydramnios)"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122884" ConceptName="normal O'Sullivan test but who develop complications suggesting GDM (macrosomia, polihydramnios)"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122884" name="normal O'Sullivan test but who develop complications suggesting GDM (macrosomia, polihydramnios)" description="normal O'Sullivan test but who develop complications suggesting GDM (macrosomia, polihydramnios)" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122712" ConceptName="Normal sweat test"/>
+            <ConceptID_Name ConceptID="122651" ConceptName="complications"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122887" name="positive diagnosis requires that two or more thresholds be met or exceeded" description="positive diagnosis requires that two or more thresholds be met or exceeded" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122886" ConceptName="positive diagnosis requires that two or more thresholds be met or exceeded"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122886" ConceptName="positive diagnosis requires that two or more thresholds be met or exceeded"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122886" name="positive diagnosis requires that two or more thresholds be met or exceeded" description="positive diagnosis requires that two or more thresholds be met or exceeded" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122714" ConceptName="Diagnosis"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122889" name="women at high risk for gestational diabetes who are unable to take an oral glucose load" description="women at high risk for gestational diabetes who are unable to take an oral glucose load" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122888" ConceptName="women at high risk for gestational diabetes who are unable to take an oral glucose load"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122888" ConceptName="women at high risk for gestational diabetes who are unable to take an oral glucose load"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122888" name="women at high risk for gestational diabetes who are unable to take an oral glucose load" description="women at high risk for gestational diabetes who are unable to take an oral glucose load" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122685" ConceptName="are unable to take an oral glucose load"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122891" name="good glycemic control is accomplished with medical nutritional therapy for more than 1 month" description="good glycemic control is accomplished with medical nutritional therapy for more than 1 month" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122890" ConceptName="good glycemic control is accomplished with medical nutritional therapy for more than 1 month"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122890" ConceptName="good glycemic control is accomplished with medical nutritional therapy for more than 1 month"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122890" name="good glycemic control is accomplished with medical nutritional therapy for more than 1 month" description="good glycemic control is accomplished with medical nutritional therapy for more than 1 month" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122730" ConceptName="Good hypertension control"/>
+            <ConceptID_Name ConceptID="122732" ConceptName="medical nutritional therapy for more than 1 month"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122893" name="Fasting blood glucose concentration ≤ 95 mg/dL (5.3 mmol/L)
+One hour-postprandial" description="Fasting blood glucose concentration ≤ 95 mg/dL (5.3 mmol/L)
+One hour-postprandial" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122892" ConceptName="Fasting blood glucose concentration ≤ 95 mg/dL (5.3 mmol/L)
+One hour-postprandial"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122892" ConceptName="Fasting blood glucose concentration ≤ 95 mg/dL (5.3 mmol/L)
+One hour-postprandial"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122892" name="Fasting blood glucose concentration ≤ 95 mg/dL (5.3 mmol/L)
+One hour-postprandial" description="Fasting blood glucose concentration ≤ 95 mg/dL (5.3 mmol/L)
+One hour-postprandial" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122737" ConceptName="Fasting blood glucose concentration ≤ 95 mg/dL (5.3 mmol/L)
+One"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122895" name="women with GDM" description="women with GDM" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122894" ConceptName="women with GDM"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122894" ConceptName="women with GDM"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122894" name="women with GDM" description="women with GDM" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID=""/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122897" name="case of ketonuria detection (the number of ketonuria measurements with result &quot;positive&quot; is equal or higher than 3 in a period of time of one week)" description="case of ketonuria detection (the number of ketonuria measurements with result &quot;positive&quot; is equal or higher than 3 in a period of time of one week)" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122896" ConceptName="case of ketonuria detection (the number of ketonuria measurements with result &quot;positive&quot; is equal or higher than 3 in a period of time of one week)"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122896" ConceptName="case of ketonuria detection (the number of ketonuria measurements with result &quot;positive&quot; is equal or higher than 3 in a period of time of one week)"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122896" name="case of ketonuria detection (the number of ketonuria measurements with result &quot;positive&quot; is equal or higher than 3 in a period of time of one week)" description="case of ketonuria detection (the number of ketonuria measurements with result &quot;positive&quot; is equal or higher than 3 in a period of time of one week)" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122851"/>
+            <ConceptID_Name ConceptID="122757" ConceptName="Detection"/>
+            <ConceptID_Name ConceptID="122852"/>
+            <ConceptID_Name ConceptID="122759" ConceptName="Result"/>
+            <ConceptID_Name ConceptID="122853"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122899" name="fasting glucose values achieve the threshold for insulin treatment as a consequence of increasing the amount of carbohydrates" description="fasting glucose values achieve the threshold for insulin treatment as a consequence of increasing the amount of carbohydrates" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122898" ConceptName="fasting glucose values achieve the threshold for insulin treatment as a consequence of increasing the amount of carbohydrates"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122898" ConceptName="fasting glucose values achieve the threshold for insulin treatment as a consequence of increasing the amount of carbohydrates"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122898" name="fasting glucose values achieve the threshold for insulin treatment as a consequence of increasing the amount of carbohydrates" description="fasting glucose values achieve the threshold for insulin treatment as a consequence of increasing the amount of carbohydrates" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122762" ConceptName="Glucose mean value"/>
+            <ConceptID_Name ConceptID="122763" ConceptName="insulin treatment"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122901" name="she is not following nutritional prescription more than once" description="she is not following nutritional prescription more than once" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122900" ConceptName="she is not following nutritional prescription more than once"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122900" ConceptName="she is not following nutritional prescription more than once"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122900" name="she is not following nutritional prescription more than once" description="she is not following nutritional prescription more than once" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122771" ConceptName="she is not following nutritional prescription"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122903" name="women with GDM and no medical or obstetrical contraindications to this level of physical activity" description="women with GDM and no medical or obstetrical contraindications to this level of physical activity" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122902" ConceptName="women with GDM and no medical or obstetrical contraindications to this level of physical activity"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122902" ConceptName="women with GDM and no medical or obstetrical contraindications to this level of physical activity"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122902" name="women with GDM and no medical or obstetrical contraindications to this level of physical activity" description="women with GDM and no medical or obstetrical contraindications to this level of physical activity" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122773" ConceptName="Contraindication"/>
+            <ConceptID_Name ConceptID="122774" ConceptName="Activity level"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122905" name="not follow recommendations related to physical activity" description="not follow recommendations related to physical activity" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122904" ConceptName="not follow recommendations related to physical activity"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122904" ConceptName="not follow recommendations related to physical activity"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122904" name="not follow recommendations related to physical activity" description="not follow recommendations related to physical activity" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122775" ConceptName="not follow recommendations"/>
+            <ConceptID_Name ConceptID="122776" ConceptName="PAS"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122907" name="normoglycemia cannot be maintained by medical nutritional therapy" description="normoglycemia cannot be maintained by medical nutritional therapy" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122906" ConceptName="normoglycemia cannot be maintained by medical nutritional therapy"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122906" ConceptName="normoglycemia cannot be maintained by medical nutritional therapy"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122906" name="normoglycemia cannot be maintained by medical nutritional therapy" description="normoglycemia cannot be maintained by medical nutritional therapy" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122731" ConceptName="medical nutritional therapy"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122909" name="target glucose levels are exceeded despite dietary therapy" description="target glucose levels are exceeded despite dietary therapy" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122908" ConceptName="target glucose levels are exceeded despite dietary therapy"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122908" ConceptName="target glucose levels are exceeded despite dietary therapy"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122908" name="target glucose levels are exceeded despite dietary therapy" description="target glucose levels are exceeded despite dietary therapy" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122783" ConceptName="target glucose levels are exceeded"/>
+            <ConceptID_Name ConceptID="122784" ConceptName="Dietary Macronutrients Therapy"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122911" name="two or more elevated values are observed in a week period in the same interval (fasting, postprandial breakfast, postprandial lunch, postprandial dinner)" description="two or more elevated values are observed in a week period in the same interval (fasting, postprandial breakfast, postprandial lunch, postprandial dinner)" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122910" ConceptName="two or more elevated values are observed in a week period in the same interval (fasting, postprandial breakfast, postprandial lunch, postprandial dinner)"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122910" ConceptName="two or more elevated values are observed in a week period in the same interval (fasting, postprandial breakfast, postprandial lunch, postprandial dinner)"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122910" name="two or more elevated values are observed in a week period in the same interval (fasting, postprandial breakfast, postprandial lunch, postprandial dinner)" description="two or more elevated values are observed in a week period in the same interval (fasting, postprandial breakfast, postprandial lunch, postprandial dinner)" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122855" ConceptName="two or more elevated values are observed in a week period"/>
+            <ConceptID_Name ConceptID="122733" ConceptName="Fasting"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122913" name="blood glucose targets are exceeded in one specific measurement point (fasting, 1-hour postprandial breakfast, 1-hour postprandial lunch, 1-hour postprandial dinner) and the threshold is exceeded by less than 15 mg/dL" description="blood glucose targets are exceeded in one specific measurement point (fasting, 1-hour postprandial breakfast, 1-hour postprandial lunch, 1-hour postprandial dinner) and the threshold is exceeded by less than 15 mg/dL" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122912" ConceptName="blood glucose targets are exceeded in one specific measurement point (fasting, 1-hour postprandial breakfast, 1-hour postprandial lunch, 1-hour postprandial dinner) and the threshold is exceeded by less than 15 mg/dL"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122912" ConceptName="blood glucose targets are exceeded in one specific measurement point (fasting, 1-hour postprandial breakfast, 1-hour postprandial lunch, 1-hour postprandial dinner) and the threshold is exceeded by less than 15 mg/dL"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122912" name="blood glucose targets are exceeded in one specific measurement point (fasting, 1-hour postprandial breakfast, 1-hour postprandial lunch, 1-hour postprandial dinner) and the threshold is exceeded by less than 15 mg/dL" description="blood glucose targets are exceeded in one specific measurement point (fasting, 1-hour postprandial breakfast, 1-hour postprandial lunch, 1-hour postprandial dinner) and the threshold is exceeded by less than 15 mg/dL" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122787" ConceptName="BGS"/>
+            <ConceptID_Name ConceptID="122789" ConceptName="targets are exceeded"/>
+            <ConceptID_Name ConceptID="122790" ConceptName="Specific gravity measurement"/>
+            <ConceptID_Name ConceptID="122791" ConceptName="the threshold is exceeded by less than 15 mg/dL"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122915" name="not compliant with the prescribed diet (diet intake higher than the recommended amount of carbohydrates or eating not recommended food (such as ice cream, buns, cakes, packaged juice, plain sugar, or chocolate) or eating snacks not included in the prescribed diet)" description="not compliant with the prescribed diet (diet intake higher than the recommended amount of carbohydrates or eating not recommended food (such as ice cream, buns, cakes, packaged juice, plain sugar, or chocolate) or eating snacks not included in the prescribed diet)" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122914" ConceptName="not compliant with the prescribed diet (diet intake higher than the recommended amount of carbohydrates or eating not recommended food (such as ice cream, buns, cakes, packaged juice, plain sugar, or chocolate) or eating snacks not included in the prescribed diet)"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122914" ConceptName="not compliant with the prescribed diet (diet intake higher than the recommended amount of carbohydrates or eating not recommended food (such as ice cream, buns, cakes, packaged juice, plain sugar, or chocolate) or eating snacks not included in the prescribed diet)"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122914" name="not compliant with the prescribed diet (diet intake higher than the recommended amount of carbohydrates or eating not recommended food (such as ice cream, buns, cakes, packaged juice, plain sugar, or chocolate) or eating snacks not included in the prescribed diet)" description="not compliant with the prescribed diet (diet intake higher than the recommended amount of carbohydrates or eating not recommended food (such as ice cream, buns, cakes, packaged juice, plain sugar, or chocolate) or eating snacks not included in the prescribed diet)" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122795" ConceptName="Intracardiac echocardiography"/>
+            <ConceptID_Name ConceptID="122794" ConceptName="DIET"/>
+            <ConceptID_Name ConceptID="122797" ConceptName="chocolate"/>
+            <ConceptID_Name ConceptID="122796" ConceptName="Sugar"/>
+            <ConceptID_Name ConceptID="122764" ConceptName="not compliant with the prescribed diet"/>
+            <ConceptID_Name ConceptID="122798" ConceptName="DIET"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122917" name="not compliant for three or more different meals in a period of one week, and blood glucose is elevated as a result of non- compliance to nutritional prescription" description="not compliant for three or more different meals in a period of one week, and blood glucose is elevated as a result of non- compliance to nutritional prescription" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122916" ConceptName="not compliant for three or more different meals in a period of one week, and blood glucose is elevated as a result of non- compliance to nutritional prescription"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122916" ConceptName="not compliant for three or more different meals in a period of one week, and blood glucose is elevated as a result of non- compliance to nutritional prescription"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122916" name="not compliant for three or more different meals in a period of one week, and blood glucose is elevated as a result of non- compliance to nutritional prescription" description="not compliant for three or more different meals in a period of one week, and blood glucose is elevated as a result of non- compliance to nutritional prescription" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122787" ConceptName="BGS"/>
+            <ConceptID_Name ConceptID="122857" ConceptName="Result"/>
+            <ConceptID_Name ConceptID="122856" ConceptName="not compliant for three or more different meals in a period of one week"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122919" name="insulin is required because the fasting blood glucose concentration is high" description="insulin is required because the fasting blood glucose concentration is high" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122918" ConceptName="insulin is required because the fasting blood glucose concentration is high"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122918" ConceptName="insulin is required because the fasting blood glucose concentration is high"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122918" name="insulin is required because the fasting blood glucose concentration is high" description="insulin is required because the fasting blood glucose concentration is high" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122815" ConceptName="insulin is required"/>
+            <ConceptID_Name ConceptID="122817" ConceptName="fasting blood glucose concentration is high"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122921" name="obese woman" description="obese woman" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122920" ConceptName="obese woman"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122920" ConceptName="obese woman"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122920" name="obese woman" description="obese woman" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID=""/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122923" name="Hypoglycemia remote from meal or snack time" description="Hypoglycemia remote from meal or snack time" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122922" ConceptName="Hypoglycemia remote from meal or snack time"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122922" ConceptName="Hypoglycemia remote from meal or snack time"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122922" name="Hypoglycemia remote from meal or snack time" description="Hypoglycemia remote from meal or snack time" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122686" ConceptName="Hypoglycemia"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122925" name="women with GDM" description="women with GDM" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122924" ConceptName="women with GDM"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122924" ConceptName="women with GDM"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122924" name="women with GDM" description="women with GDM" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122710" ConceptName="GDM"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122927" name="low glucose values are encountered more than once at the same time of day" description="low glucose values are encountered more than once at the same time of day" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122926" ConceptName="low glucose values are encountered more than once at the same time of day"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122926" ConceptName="low glucose values are encountered more than once at the same time of day"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122926" name="low glucose values are encountered more than once at the same time of day" description="low glucose values are encountered more than once at the same time of day" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122825" ConceptName="Glucose mean value"/>
+            <ConceptID_Name ConceptID="122858" ConceptName="TEMP"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122929" name="Impaired glucose tolerance (IGT) is diagnosed if the two-hour value is 140 to 199 mg/dL" description="Impaired glucose tolerance (IGT) is diagnosed if the two-hour value is 140 to 199 mg/dL" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122928" ConceptName="Impaired glucose tolerance (IGT) is diagnosed if the two-hour value is 140 to 199 mg/dL"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122928" ConceptName="Impaired glucose tolerance (IGT) is diagnosed if the two-hour value is 140 to 199 mg/dL"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122928" name="Impaired glucose tolerance (IGT) is diagnosed if the two-hour value is 140 to 199 mg/dL" description="Impaired glucose tolerance (IGT) is diagnosed if the two-hour value is 140 to 199 mg/dL" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122835" ConceptName="Impaired glucose tolerance"/>
+            <ConceptID_Name ConceptID="122837" ConceptName="is 140"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122931" name="IFG and IGT are known as &quot;prediabetes.&quot;" description="IFG and IGT are known as &quot;prediabetes.&quot;" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122930" ConceptName="IFG and IGT are known as &quot;prediabetes.&quot;"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122930" ConceptName="IFG and IGT are known as &quot;prediabetes.&quot;"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122930" name="IFG and IGT are known as &quot;prediabetes.&quot;" description="IFG and IGT are known as &quot;prediabetes.&quot;" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122838" ConceptName="Interferon Gamma"/>
+            <ConceptID_Name ConceptID="122840" ConceptName="IGT are known"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122933" name="prediabetes or overt diabetes" description="prediabetes or overt diabetes" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122932" ConceptName="prediabetes or overt diabetes"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122932" ConceptName="prediabetes or overt diabetes"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122932" name="prediabetes or overt diabetes" description="prediabetes or overt diabetes" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122841" ConceptName="Pre-diabetes NOS"/>
+            <ConceptID_Name ConceptID="122844" ConceptName="Diabetes"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <RawNominalConcept id="122603" name="sex" description="sex [Organism Attribute]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Sex" CUI="C1522384"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="female"/>
+            <NominalStringValue value="male"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122605" name="pregnant" description="pregnant" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <ContextConcept id="122604" name="women" description="women" type="Context">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122603" ConceptName="Sex"/>
+        </DerivedFrom>
+        <GeneratedFrom timeUnit="Seconds" timeGap="0" boundaryPoint="Start">
+            <ConceptID_Name ConceptID="122603" ConceptName="Sex"/>
+            <componentValueConstraints value="" Operator="Equals"/>
+        </GeneratedFrom>
+        <GeneratedUntil timeUnit="Seconds" timeGap="0" boundaryPoint="End">
+            <ConceptID_Name ConceptID="122603" ConceptName="Sex"/>
+            <componentValueConstraints value="" Operator="Equals"/>
+        </GeneratedUntil>
+    </ContextConcept>
+    <RawNominalConcept id="122607" name="DOB" description="DOB [Finding]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Patient date of birth" CUI="C0421451"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <ContextConcept id="122608" name="Age ≥ 35" description="Age ≥ 35" type="Context">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122607" ConceptName="Age ≥ 35"/>
+        </DerivedFrom>
+        <GeneratedFrom boundaryPoint="Start">
+            <ConceptID_Name ConceptID="122607" ConceptName="Age ≥ 35"/>
+            <componentValueConstraints value="true" Operator="Equals"/>
+        </GeneratedFrom>
+        <GeneratedUntil boundaryPoint="Start">
+            <ConceptID_Name ConceptID="122607" ConceptName="Age ≥ 35"/>
+            <componentValueConstraints value="true" Operator="Equals"/>
+        </GeneratedUntil>
+    </ContextConcept>
+    <RawNominalConcept id="122625" name="obese" description="obese" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <ValueAbstractionConcept id="122644" name="metabolic complications" description="metabolic complications" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="complications" CUI="C1171258"/>
+        </StandardTerms>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122860" ConceptName="(hypoglycemia, hyperbilirubinemia, hypocalcemia, erythremia)"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122860" ConceptName="(hypoglycemia, hyperbilirubinemia, hypocalcemia, erythremia)"/>
+                <componentValueConstraints value="metabolic" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <ValueAbstractionConcept id="122651" name="develop complications suggesting GDM" description="develop complications suggesting GDM" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="complications" CUI="C1171258"/>
+        </StandardTerms>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122861" ConceptName="(macrosomia, polihydramnios)"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122861" ConceptName="(macrosomia, polihydramnios)"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <RawNominalConcept id="122650" name="Familiar history of diabetes" description="Familiar history of diabetes [DiseaseOrSyndrome]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Diabetes" CUI="C0011847"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122654" name="high risk for gestational diabetes" description="high risk for gestational diabetes [DiseaseOrSyndrome]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Gestational Diabetes" CUI="C0085207"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <ValueAbstractionConcept id="122665" name="blood glucose" description="blood glucose" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="BGS" CUI="C0265308"/>
+        </StandardTerms>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122863" ConceptName="(fasting and 3 postprandial measurements)"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122863" ConceptName="(fasting and 3 postprandial measurements)"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <ValueAbstractionConcept id="122674" name="obese" description="obese" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Obese" CUI="C0028754"/>
+        </StandardTerms>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122864" ConceptName="(BMI ≥ 30 kg/m2)"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122864" ConceptName="(BMI ≥ 30 kg/m2)"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <RawNominalConcept id="122685" name="are unable to take an oral glucose load" description="are unable to take an oral glucose load" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122687" name="hyperbilirubinemia" description="hyperbilirubinemia [Finding]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Hyperbilirubinemia" CUI="C0311468"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122686" name="hypoglycemia" description="hypoglycemia [Finding]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Hypoglycemia" CUI="C0595883"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122688" name="hypocalcemia" description="hypocalcemia [PathologicFunction]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Hypocalcaemia" CUI="C0020598"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122701" name="Body Mass Index" description="Body Mass Index [DiagnosticProcedure]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Body Mass Index" CUI="C0005893"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122703" name="mass" description="mass [Finding]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Mass" CUI="C0577559"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNumericConcept id="122705" name="))^2" description="))^2" type="RawNumeric">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NumericAllowedValues Units="kg/m2" MinValue="-1.0" MaxValue="-1.0"/>
+    </RawNumericConcept>
+    <RawNominalConcept id="122707" name="Previous GDM" description="Previous GDM [DiseaseOrSyndrome]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="GDM" CUI="C0085207"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="placed"/>
+            <NominalStringValue value="previous"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <ValueAbstractionConcept id="122706" name="))^2 ≥ 30 kg/m2" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122705"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122705"/>
+                <componentValueConstraints value="30.0" Operator="GreaterOrEquals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <RawNominalConcept id="122709" name="macrosomia" description="macrosomia [Finding]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Macrosomia" CUI="C0158915"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122708" name="i.e" description="i.e [DiagnosticProcedure]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="I-E" CUI="C0683454"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122711" name="All the pregnant women" description="All the pregnant women [Finding]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Pregnant" CUI="C0549206"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122710" name="GDM" description="GDM [DiseaseOrSyndrome]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="GDM" CUI="C0085207"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122712" name="normal O'Sullivan test" description="normal O'Sullivan test [Finding]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Normal sweat test" CUI="C0428133"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122715" name="only one point is exceeded" description="only one point is exceeded" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122714" name="positive diagnosis" description="positive diagnosis [Finding]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Diagnosis" CUI="C0011900"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="positive"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122716" name="unable to take an oral glucose load" description="unable to take an oral glucose load" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122731" name="medical nutritional therapy" description="medical nutritional therapy [TherapeuticOrPreventiveProcedure]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="medical nutritional therapy" CUI="C0918259"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122730" name="good glycemic control" description="good glycemic control [Finding]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Good hypertension control" CUI="C0421189"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122733" name="fasting" description="fasting [Finding]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Fasting" CUI="C0015663"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <PatternConcept patternComponentsRelation="AND" id="122732" name="medical nutritional therapy for more than 1 month" description="medical nutritional therapy for more than 1 month" type="Pattern">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122731" ConceptName="medical nutritional therapy"/>
+        </DerivedFrom>
+        <PatternComponents>
+            <PatternComponent>
+                <ConceptID_Name ConceptID="122731" ConceptName="medical nutritional therapy"/>
+                <componentLocalConstraints>
+                    <componentValueConstraints value="true" Operator="Equals"/>
+                    <componentTimeConstraints referencePositionNumber="last" referenceBoundaryPoint="End" timeUnit="month" MinDuration="1" MaxDuration="-1">
+                        <ReferencePoint ConceptID="0"/>
+                    </componentTimeConstraints>
+                </componentLocalConstraints>
+            </PatternComponent>
+        </PatternComponents>
+        <PatternTemporalPairwiseConstraints/>
+        <PatternPeriodicConstraints timeUnit="Seconds" minCardinalityValue="0" maxCardinalityValue="0" cardinalityValue="0"/>
+    </PatternConcept>
+    <RawNominalConcept id="122735" name="they are exceeded" description="they are exceeded" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122734" name="3 postprandial measurements" description="3 postprandial measurements [LaboratoryProcedure]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="3-Aminoisobutyrate measurement" CUI="C1266342"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <ValueAbstractionConcept id="122737" name="Fasting blood glucose concentration ≤ 95 mg/dL (5.3 mmol/L)
+One" description="Fasting blood glucose concentration ≤ 95 mg/dL (5.3 mmol/L)
+One" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122736" ConceptName="Blood glucose concentration"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122736" ConceptName="Blood glucose concentration"/>
+                <componentValueConstraints value="95.0" Operator="SmallerOrEquals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <RawNumericConcept id="122736" name="Fasting blood glucose concentration" description="Fasting blood glucose concentration [Finding]" type="RawNumeric">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Blood glucose concentration" CUI="C2585282"/>
+        </StandardTerms>
+        <NumericAllowedValues Units="mg/dL (5.3 mmol/L)" MinValue="-1.0" MaxValue="-1.0"/>
+    </RawNumericConcept>
+    <RawNumericConcept id="122739" name="postprandial glucose" description="postprandial glucose [LaboratoryProcedure]" type="RawNumeric">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="postprandial blood glucose" CUI="C0428569"/>
+        </StandardTerms>
+        <NumericAllowedValues Units="g" MinValue="-1.0" MaxValue="-1.0"/>
+    </RawNumericConcept>
+    <ValueAbstractionConcept id="122738" name="Fasting blood glucose concentration ≤ 95 mg/dL (5.3 mmol/L)
+One" description="Fasting blood glucose concentration ≤ 95 mg/dL (5.3 mmol/L)
+One" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122737" ConceptName="Fasting blood glucose concentration ≤ 95 mg/dL (5.3 mmol/L)
+One"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122737" ConceptName="Fasting blood glucose concentration ≤ 95 mg/dL (5.3 mmol/L)
+One"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <RawNumericConcept id="122741" name="hour-postprandial blood concentration" description="hour-postprandial blood concentration [LaboratoryProcedure]" type="RawNumeric">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Blood concentration" CUI="C1313904"/>
+        </StandardTerms>
+        <NumericAllowedValues Units="mg/dL (6.7 mmol/L)" MinValue="-1.0" MaxValue="-1.0"/>
+    </RawNumericConcept>
+    <ValueAbstractionConcept id="122740" name="postprandial glucose &lt; 130 to 140 mg" description="postprandial glucose &lt; 130 to 140 mg" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122739" ConceptName="postprandial blood glucose"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122739" ConceptName="postprandial blood glucose"/>
+                <componentValueConstraints value="true" Operator="Smaller"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <ValueAbstractionConcept id="122742" name="hour-postprandial blood concentration ≤ 120 mg/dL (6.7 mmol/L)" description="hour-postprandial blood concentration ≤ 120 mg/dL (6.7 mmol/L)" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122741" ConceptName="Blood concentration"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122741" ConceptName="Blood concentration"/>
+                <componentValueConstraints value="120.0" Operator="SmallerOrEquals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <ValueAbstractionConcept id="122751" name="overt diabetes is suspected" description="overt diabetes is suspected" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122750" ConceptName="Diabetes"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122750" ConceptName="Diabetes"/>
+                <componentValueConstraints value="suspected" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <RawNominalConcept id="122750" name="overt diabetes" description="overt diabetes" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Diabetes" CUI="C0011847"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="suspected"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122753" name="ketonuria" description="ketonuria [DiseaseOrSyndrome]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Ketonuria" CUI="C0162275"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <PatternConcept patternComponentsRelation="AND" id="122755" name="ketonuria is negative for two weeks" description="ketonuria is negative for two weeks" type="Pattern">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122754" ConceptName="NO ketonuria"/>
+        </DerivedFrom>
+        <PatternComponents>
+            <PatternComponent>
+                <ConceptID_Name ConceptID="122754" ConceptName="NO ketonuria"/>
+                <componentLocalConstraints>
+                    <componentValueConstraints value="true" Operator="Equals"/>
+                    <componentTimeConstraints referencePositionNumber="last" referenceBoundaryPoint="End" timeUnit="weeks" MinDuration="2.0" MaxDuration="2.0">
+                        <ReferencePoint ConceptID="0"/>
+                    </componentTimeConstraints>
+                </componentLocalConstraints>
+            </PatternComponent>
+        </PatternComponents>
+        <PatternTemporalPairwiseConstraints/>
+        <PatternPeriodicConstraints timeUnit="Seconds" minCardinalityValue="0" maxCardinalityValue="0" cardinalityValue="0"/>
+    </PatternConcept>
+    <ValueAbstractionConcept id="122754" name="NO ketonuria" description="NO ketonuria" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122753" ConceptName="Ketonuria"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122753" ConceptName="Ketonuria"/>
+                <componentValueConstraints value="false" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <RawNominalConcept id="122757" name="detection" description="detection [TherapeuticOrPreventiveProcedure]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Detection" CUI="C1511790"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122759" name="result" description="result [Finding]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Result" CUI="C2825142"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122761" name="compliant with the prescribed diet" description="compliant with the prescribed diet" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122763" name="insulin treatment" description="insulin treatment [TherapeuticOrPreventiveProcedure]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="insulin treatment" CUI="C0745343"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122762" name="fasting glucose values" description="fasting glucose values [LaboratoryProcedure]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Glucose mean value" CUI="C0552468"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="fasting"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122765" name="the situation is kept" description="the situation is kept" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122764" name="not compliant with the prescribed diet" description="not compliant with the prescribed diet" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122771" name="she is not following nutritional prescription" description="she is not following nutritional prescription" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122773" name="obstetrical contraindications" description="obstetrical contraindications [Finding]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Contraindication" CUI="C1301624"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="obstetrical"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122775" name="not follow recommendations" description="not follow recommendations" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122774" name="level of physical activity" description="level of physical activity [Finding]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Activity level" CUI="C0683317"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122777" name="normoglycemia cannot be maintained" description="normoglycemia cannot be maintained" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122776" name="physical activity" description="physical activity [Finding]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="PAS" CUI="C0030125"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <ValueAbstractionConcept id="122778" name="normoglycemia cannot be maintained" description="normoglycemia cannot be maintained" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122777" ConceptName="normoglycemia cannot be maintained"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122777" ConceptName="normoglycemia cannot be maintained"/>
+                <componentValueConstraints value="false" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <ValueAbstractionConcept id="122783" name="target glucose levels are exceeded" description="target glucose levels are exceeded" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122782" ConceptName="Target HbA1c level"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122782" ConceptName="Target HbA1c level"/>
+                <componentValueConstraints value="exceeded" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <RawOrdinalConcept id="122782" name="target glucose levels" description="target glucose levels" type="RawOrdinal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Target HbA1c level" CUI="C1318607"/>
+        </StandardTerms>
+        <OrdinalAllowedValues>
+            <OrdinalStringValue order="0" value="exceeded"/>
+        </OrdinalAllowedValues>
+    </RawOrdinalConcept>
+    <RawNominalConcept id="122785" name="two or more elevated values are observed" description="two or more elevated values are observed" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122784" name="dietary therapy" description="dietary therapy [TherapeuticOrPreventiveProcedure]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Dietary Macronutrients Therapy" CUI="C1880312"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122787" name="blood glucose" description="blood glucose [DiseaseOrSyndrome]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="BGS" CUI="C0265308"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <ValueAbstractionConcept id="122789" name="targets are exceeded" description="targets are exceeded" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122788" ConceptName="TARGET"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122788" ConceptName="TARGET"/>
+                <componentValueConstraints value="exceeded" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <RawOrdinalConcept id="122788" name="targets" description="targets" type="RawOrdinal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="TARGET" CUI="C2986546"/>
+        </StandardTerms>
+        <OrdinalAllowedValues>
+            <OrdinalStringValue order="0" value="exceeded"/>
+        </OrdinalAllowedValues>
+    </RawOrdinalConcept>
+    <ValueAbstractionConcept id="122791" name="the threshold is exceeded by less than 15 mg/dL" description="the threshold is exceeded by less than 15 mg/dL" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122792" ConceptName="the threshold is exceeded"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122792" ConceptName="the threshold is exceeded"/>
+                <componentValueConstraints value="15.0" Operator="Smaller"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <RawNominalConcept id="122790" name="specific measurement" description="specific measurement [LaboratoryProcedure]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Specific gravity measurement" CUI="C0201802"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNumericConcept id="122792" name="the threshold is exceeded" description="the threshold is exceeded" type="RawNumeric">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NumericAllowedValues Units="" MinValue="-1.0" MaxValue="-1.0"/>
+    </RawNumericConcept>
+    <RawNominalConcept id="122795" name="ice" description="ice [DiagnosticProcedure]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Intracardiac echocardiography" CUI="C0994536"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122794" name="diet" description="diet [TherapeuticOrPreventiveProcedure]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="DIET" CUI="C1519433"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122797" name="chocolate" description="chocolate [PharmacologicSubstance]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="chocolate" CUI="C0939909"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122796" name="plain sugar" description="plain sugar [PharmacologicSubstance]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Sugar" CUI="C0242209"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="plain"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122799" name="not compliant" description="not compliant" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122798" name="prescribed diet" description="prescribed diet [TherapeuticOrPreventiveProcedure]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="DIET" CUI="C1519433"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="prescribed"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <ValueAbstractionConcept id="122811" name="glucose level is elevated" description="glucose level is elevated" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122810" ConceptName="glucose level"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122810" ConceptName="glucose level"/>
+                <componentValueConstraints value="elevated" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <RawOrdinalConcept id="122810" name="glucose level" description="glucose level" type="RawOrdinal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="glucose level" CUI="C0337438"/>
+        </StandardTerms>
+        <OrdinalAllowedValues>
+            <OrdinalStringValue order="0" value="elevated"/>
+        </OrdinalAllowedValues>
+    </RawOrdinalConcept>
+    <ValueAbstractionConcept id="122813" name="fasting glucose is elevated" description="fasting glucose is elevated" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122812" ConceptName="Fasting blood glucose"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122812" ConceptName="Fasting blood glucose"/>
+                <componentValueConstraints value="elevated" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <RawOrdinalConcept id="122812" name="fasting glucose" description="fasting glucose" type="RawOrdinal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Fasting blood glucose" CUI="C0428568"/>
+        </StandardTerms>
+        <OrdinalAllowedValues>
+            <OrdinalStringValue order="0" value="high"/>
+            <OrdinalStringValue order="1" value="elevated"/>
+        </OrdinalAllowedValues>
+    </RawOrdinalConcept>
+    <ValueAbstractionConcept id="122815" name="insulin is required" description="insulin is required" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122814" ConceptName="Insulin"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122814" ConceptName="Insulin"/>
+                <componentValueConstraints value="required" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <RawNominalConcept id="122814" name="insulin" description="insulin" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Insulin" CUI="C1533581"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="required"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <ValueAbstractionConcept id="122817" name="fasting blood glucose concentration is high" description="fasting blood glucose concentration is high" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122812" ConceptName="Fasting blood glucose"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122812" ConceptName="Fasting blood glucose"/>
+                <componentValueConstraints value="high" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <ValueAbstractionConcept id="122821" name="postprandial blood glucose concentrations are high" description="postprandial blood glucose concentrations are high" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122820" ConceptName="Blood glucose concentration"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122820" ConceptName="Blood glucose concentration"/>
+                <componentValueConstraints value="high" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <RawOrdinalConcept id="122820" name="blood glucose concentrations" description="blood glucose concentrations" type="RawOrdinal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Blood glucose concentration" CUI="C2585282"/>
+        </StandardTerms>
+        <OrdinalAllowedValues>
+            <OrdinalStringValue order="0" value="high"/>
+        </OrdinalAllowedValues>
+    </RawOrdinalConcept>
+    <RawNominalConcept id="122823" name="time" description="time [TherapeuticOrPreventiveProcedure]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="TEMP" CUI="C0279848"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawOrdinalConcept id="122825" name="low glucose values" description="low glucose values [LaboratoryProcedure]" type="RawOrdinal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Glucose mean value" CUI="C0552468"/>
+        </StandardTerms>
+        <OrdinalAllowedValues>
+            <OrdinalStringValue order="0" value="low"/>
+        </OrdinalAllowedValues>
+    </RawOrdinalConcept>
+    <RawNominalConcept id="122833" name="less than 24 weeks of gestation" description="less than 24 weeks of gestation [Finding]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Less than 24 completed weeks of gestation" CUI="C0730521"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122835" name="Impaired glucose tolerance" description="Impaired glucose tolerance [DiseaseOrSyndrome]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Impaired glucose tolerance" CUI="C0271650"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122837" name="is 140" description="is 140" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122839" name="IGT" description="IGT" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Impaired glucose tolerance" CUI="C0271650"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="known"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122838" name="IFG" description="IFG [LaboratoryProcedure]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Interferon Gamma" CUI="C0021740"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122841" name="prediabetes" description="prediabetes [DiseaseOrSyndrome]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Pre-diabetes NOS" CUI="C0362046"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <ValueAbstractionConcept id="122840" name="IGT are known" description="IGT are known" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122839" ConceptName="Impaired glucose tolerance"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122839" ConceptName="Impaired glucose tolerance"/>
+                <componentValueConstraints value="known" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <RawNominalConcept id="122842" name="overt diabetes mellitus" description="overt diabetes mellitus [DiseaseOrSyndrome]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Diabetes mellitus, overt" CUI="C0543567"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122845" name="normal glucose tolerance" description="normal glucose tolerance [DiseaseOrSyndrome]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Glucose" CUI="C0017725"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122844" name="overt diabetes" description="overt diabetes [DiseaseOrSyndrome]" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms>
+            <StandardTerm vocabulary="UMLS" key="Diabetes" CUI="C0011847"/>
+        </StandardTerms>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122847" name="polihydramnios)" description="polihydramnios)" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122846" name="erythremia)" description="erythremia)" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122851" name="case of ketonuria" description="case of ketonuria" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122853" name="a period of time of one" description="a period of time of one" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <RawNominalConcept id="122852" name="the number of ketonuria" description="the number of ketonuria" type="RawNominal">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NominalAllowedValues>
+            <NominalStringValue value="true"/>
+            <NominalStringValue value="false"/>
+        </NominalAllowedValues>
+    </RawNominalConcept>
+    <PatternConcept patternComponentsRelation="AND" id="122855" name="two or more elevated values are observed in a week period" description="two or more elevated values are observed in a week period" type="Pattern">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122785" ConceptName="two or more elevated values are observed"/>
+        </DerivedFrom>
+        <PatternComponents>
+            <PatternComponent>
+                <ConceptID_Name ConceptID="122785" ConceptName="two or more elevated values are observed"/>
+                <componentLocalConstraints>
+                    <componentValueConstraints value="true" Operator="Equals"/>
+                    <componentTimeConstraints referencePositionNumber="last" referenceBoundaryPoint="End" timeUnit="D">
+                        <ReferencePoint ConceptID="0"/>
+                    </componentTimeConstraints>
+                </componentLocalConstraints>
+            </PatternComponent>
+        </PatternComponents>
+        <PatternTemporalPairwiseConstraints/>
+        <PatternPeriodicConstraints timeUnit="Seconds" minCardinalityValue="0" maxCardinalityValue="0" cardinalityValue="0"/>
+    </PatternConcept>
+    <PatternConcept patternComponentsRelation="AND" id="122854" name="the situation is kept for more than 1 additional week" description="the situation is kept for more than 1 additional week" type="Pattern">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122765" ConceptName="the situation is kept"/>
+        </DerivedFrom>
+        <PatternComponents>
+            <PatternComponent>
+                <ConceptID_Name ConceptID="122765" ConceptName="the situation is kept"/>
+                <componentLocalConstraints>
+                    <componentValueConstraints value="true" Operator="Equals"/>
+                    <componentTimeConstraints referencePositionNumber="last" referenceBoundaryPoint="End" timeUnit="week" MinDuration="1.0" MaxDuration="-1">
+                        <ReferencePoint ConceptID="0"/>
+                    </componentTimeConstraints>
+                </componentLocalConstraints>
+            </PatternComponent>
+        </PatternComponents>
+        <PatternTemporalPairwiseConstraints/>
+        <PatternPeriodicConstraints timeUnit="Seconds" minCardinalityValue="0" maxCardinalityValue="0" cardinalityValue="0"/>
+    </PatternConcept>
+    <PatternConcept patternComponentsRelation="AND" id="122856" name="not compliant for three or more different meals in a period of one week" description="not compliant for three or more different meals in a period of one week" type="Pattern">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122799" ConceptName="not compliant"/>
+        </DerivedFrom>
+        <PatternComponents>
+            <PatternComponent>
+                <ConceptID_Name ConceptID="122799" ConceptName="not compliant"/>
+                <componentLocalConstraints>
+                    <componentValueConstraints value="true" Operator="Equals"/>
+                    <componentTimeConstraints referencePositionNumber="last" referenceBoundaryPoint="End" timeUnit="week" MinDuration="1.0" MaxDuration="1.0">
+                        <ReferencePoint ConceptID="0"/>
+                    </componentTimeConstraints>
+                </componentLocalConstraints>
+            </PatternComponent>
+        </PatternComponents>
+        <PatternTemporalPairwiseConstraints/>
+        <PatternPeriodicConstraints timeUnit="Seconds" minCardinalityValue="0" maxCardinalityValue="0" cardinalityValue="0"/>
+    </PatternConcept>
+    <LogicAbstractionConcept ComponentsRelation="OR" K="0" id="122861" name="(macrosomia, polihydramnios)" description="(macrosomia, polihydramnios)" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122709" ConceptName="Macrosomia"/>
+            <ConceptID_Name ConceptID="122847" ConceptName="polihydramnios)"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="OR" K="0" id="122860" name="(hypoglycemia, hyperbilirubinemia, hypocalcemia, erythremia)" description="(hypoglycemia, hyperbilirubinemia, hypocalcemia, erythremia)" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122686" ConceptName="Hypoglycemia"/>
+            <ConceptID_Name ConceptID="122687" ConceptName="Hyperbilirubinemia"/>
+            <ConceptID_Name ConceptID="122688" ConceptName="Hypocalcaemia"/>
+            <ConceptID_Name ConceptID="122846" ConceptName="erythremia)"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122863" name="(fasting and 3 postprandial measurements)" description="(fasting and 3 postprandial measurements)" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122733" ConceptName="Fasting"/>
+            <ConceptID_Name ConceptID="122734" ConceptName="3-Aminoisobutyrate measurement"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122865" name="pregnant [women]" description="pregnant [women]" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext>
+            <ConceptID_Name ConceptID="122604"/>
+        </NecessaryContext>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122605" ConceptName="pregnant"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122605" ConceptName="pregnant"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="OR" K="0" id="122864" name="(BMI ≥ 30 kg/m2)" description="(BMI ≥ 30 kg/m2)" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122701" ConceptName="Body Mass Index"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122867" name="pregnant [women]" description="pregnant [women]" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext>
+            <ConceptID_Name ConceptID="122604"/>
+        </NecessaryContext>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122605" ConceptName="pregnant"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122605" ConceptName="pregnant"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <ValueAbstractionConcept id="122869" name="high risk for gestational diabetes [women]" description="high risk for gestational diabetes [women]" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext>
+            <ConceptID_Name ConceptID="122604"/>
+        </NecessaryContext>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122654" ConceptName="Gestational Diabetes"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122654" ConceptName="Gestational Diabetes"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <ValueAbstractionConcept id="122868" name="pregnant [women]" description="pregnant [women]" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext>
+            <ConceptID_Name ConceptID="122604"/>
+        </NecessaryContext>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122605" ConceptName="pregnant"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122605" ConceptName="pregnant"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <ValueAbstractionConcept id="122871" name="GDM [women]" description="GDM [women]" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext>
+            <ConceptID_Name ConceptID="122604"/>
+        </NecessaryContext>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122710" ConceptName="GDM"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122710" ConceptName="GDM"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <ValueAbstractionConcept id="122870" name="GDM [women]" description="GDM [women]" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext>
+            <ConceptID_Name ConceptID="122604"/>
+        </NecessaryContext>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122710" ConceptName="GDM"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122710" ConceptName="GDM"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <ValueAbstractionConcept id="122873" name="time [women]" description="time [women]" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext>
+            <ConceptID_Name ConceptID="122604"/>
+        </NecessaryContext>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122823" ConceptName="TEMP"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122823" ConceptName="TEMP"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <ValueAbstractionConcept id="122872" name="obese [woman]" description="obese [woman]" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext>
+            <ConceptID_Name ConceptID="122604"/>
+        </NecessaryContext>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122625" ConceptName="obese"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122625" ConceptName="obese"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <ValueAbstractionConcept id="122875" name="pregnant women" description="pregnant women" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122874" ConceptName="pregnant women"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122874" ConceptName="pregnant women"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122874" name="pregnant women" description="pregnant women" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID=""/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122877" name="Age ≥ 35
+Body Mass Index (BMI)= mass (Kg)/ (Height (m))^2 ≥ 30 kg/m2
+Previous GDM confirmed or suspected on the light of the perinatal outcomes, i.e. macrosomia" description="Age ≥ 35
+Body Mass Index (BMI)= mass (Kg)/ (Height (m))^2 ≥ 30 kg/m2
+Previous GDM confirmed or suspected on the light of the perinatal outcomes, i.e. macrosomia" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122876" ConceptName="Age ≥ 35
+Body Mass Index (BMI)= mass (Kg)/ (Height (m))^2 ≥ 30 kg/m2
+Previous GDM confirmed or suspected on the light of the perinatal outcomes, i.e. macrosomia"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122876" ConceptName="Age ≥ 35
+Body Mass Index (BMI)= mass (Kg)/ (Height (m))^2 ≥ 30 kg/m2
+Previous GDM confirmed or suspected on the light of the perinatal outcomes, i.e. macrosomia"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122876" name="Age ≥ 35
+Body Mass Index (BMI)= mass (Kg)/ (Height (m))^2 ≥ 30 kg/m2
+Previous GDM confirmed or suspected on the light of the perinatal outcomes, i.e. macrosomia" description="Age ≥ 35
+Body Mass Index (BMI)= mass (Kg)/ (Height (m))^2 ≥ 30 kg/m2
+Previous GDM confirmed or suspected on the light of the perinatal outcomes, i.e. macrosomia" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122707" ConceptName="GDM"/>
+            <ConceptID_Name ConceptID="122706"/>
+            <ConceptID_Name ConceptID="122709" ConceptName="Macrosomia"/>
+            <ConceptID_Name ConceptID="122708" ConceptName="I-E"/>
+            <ConceptID_Name ConceptID="122701" ConceptName="Body Mass Index"/>
+            <ConceptID_Name ConceptID="122703" ConceptName="Mass"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+    <ValueAbstractionConcept id="122879" name="Familiar history of diabetes in first degree relatives" description="Familiar history of diabetes in first degree relatives" type="ValueAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122878" ConceptName="Familiar history of diabetes in first degree relatives"/>
+        </DerivedFrom>
+        <DerivedFromComponents>
+            <DerivedFromComponent>
+                <ConceptID_Name ConceptID="122878" ConceptName="Familiar history of diabetes in first degree relatives"/>
+                <componentValueConstraints value="true" Operator="Equals"/>
+            </DerivedFromComponent>
+        </DerivedFromComponents>
+    </ValueAbstractionConcept>
+    <LogicAbstractionConcept ComponentsRelation="AND" K="0" id="122878" name="Familiar history of diabetes in first degree relatives" description="Familiar history of diabetes in first degree relatives" type="LogicAbstraction">
+        <LocalPersistence goodBefore="0" goodAfter="0" timeUnit="Seconds"/>
+        <TemporalSemanticProperties concenatable="false" downwardHereditary="false" upwardHereditary="false" forward="false" backward="false" solid="false" gestalt="false"/>
+        <Synonyms/>
+        <StandardTerms/>
+        <NecessaryContext/>
+        <DerivedFrom>
+            <ConceptID_Name ConceptID="122650" ConceptName="Diabetes"/>
+        </DerivedFrom>
+    </LogicAbstractionConcept>
+</Knowledge-Base>

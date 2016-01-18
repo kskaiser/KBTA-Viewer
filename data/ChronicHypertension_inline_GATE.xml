@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html  gate:gateId="0" gate:annotMaxId="15319" xmlns:gate="http://www.gate.ac.uk"><head gate:gateId="1"><title gate:gateId="2">Chronic hypertension in pregnancy</title>
+
+</head><body gate:gateId="3"><h1 gate:gateId="4">Chronic hypertension in pregnancy</h1>
+<ul gate:gateId="5"><li gate:gateId="6"><parameter gate:gateId="129" string="Mild chronic hypertension" abstraction="131">Mild chronic hypertension</parameter> ( <abstraction gate:gateId="131" string="systolic blood pressure of 140-159 mm Hg or diastolic blood pressure of 90-109 mm Hg">systolic blood pressure of 140-159 mm Hg or diastolic blood pressure of 90-109 mm Hg</abstraction> )</li>
+<li gate:gateId="7"><parameter gate:gateId="130" string="Severe chronic hypertension" abstraction="132">Severe chronic hypertension</parameter> ( <abstraction gate:gateId="132" string="systolic blood pressure of 160 mm Hg or greater or diastolic blood pressure of 110 mm Hg or greater">systolic blood pressure of 160 mm Hg or greater or diastolic blood pressure of 110 mm Hg or greater</abstraction> )</li>
+</ul>
+<p gate:gateId="8"><b gate:gateId="9">Clinical Specialty</b> <ul gate:gateId="10"><li gate:gateId="11">Cardiology</li>
+<li gate:gateId="12">Internal Medicine</li>
+<li gate:gateId="13">Obstetrics and Gynecology</li>
+</ul></p>
+<p gate:gateId="14"><b gate:gateId="15">Guideline Objective(s)</b> <ul gate:gateId="16"><li gate:gateId="17">To review the effects of chronic hypertension on pregnancy</li>
+<li gate:gateId="18">To clarify the terminology and criteria used to define and diagnose chronic hypertension during pregnancy</li>
+<li gate:gateId="19">To review the available evidence for management options for chronic hypertension during pregnancy</li>
+</ul></p>
+<p gate:gateId="20"><b gate:gateId="21">Interventions and Practices Considered</b></p>
+
+<p gate:gateId="22"><i gate:gateId="23">Diagnosis/Evaluation</i> <ol gate:gateId="24"><li gate:gateId="25">Initial evaluation before pregnancy or early in pregnancy with specific testing that may include electrocardiography, echocardiography, ophthalmologic examination, and assessment of renal function.</li>
+<li gate:gateId="26">Evaluation of fetal growth by ultrasonography</li>
+</ol></p>
+<p gate:gateId="27"><i gate:gateId="28">Management/Treatment</i> <ol gate:gateId="29"><li gate:gateId="30">Antihypertensive medications (labetalol, thiazide diuretics)</li>
+<li gate:gateId="31">Counseling regarding effective contraception for women taking angiotensin-converting enzyme (ACE) inhibitors or angiotensin receptor blockers</li>
+</ol></p>
+<p gate:gateId="32"></p><p gate:gateId="33"><b gate:gateId="34">Major Outcomes Considered</b> <ul gate:gateId="35"><li gate:gateId="36">Rate of small-for-gestational-age (SGA) infant, prematurity, perinatal mortality, neonatal morbidity, and placental abruption in pregnant women with chronic hypertension</li>
+<li gate:gateId="37">Maternal mortality and morbidity</li>
+<li gate:gateId="38">The benefits and potential adverse fetal effects of treatment of mild chronic hypertension during pregnancy</li>
+</ul></p>
+<h2 gate:gateId="39">Recommendations</h2>
+
+<p gate:gateId="40"><b gate:gateId="41">Major Recommendations</b></p>
+
+<p gate:gateId="42">The grades of evidence (I-III) and levels of recommendations (A-C) are defined at the end of the &quot;Major Recommendations&quot; field.</p>
+
+<p gate:gateId="43">The following recommendation is based on good and consistent scientific evidence (Level A): <ul gate:gateId="44"><li gate:gateId="45">Angiotensin-converting enzyme inhibitors (ACE) and angiotensin receptor blockers (ARB) are contraindicated in all trimesters of pregnancy.</li>
+</ul></p>
+<p gate:gateId="46">The following recommendations and conclusions are based on limited or inconsistent scientific evidence (Level B): <ul gate:gateId="47"><li gate:gateId="48"><Condition gate:gateId="123" string="Women with severe hypertension" hasConditionType="pre-condition" activities="113"><TAK_Condition gate:gateId="15315" takIds="15303" string="Women with severe hypertension" hasConditionType="pre-condition" activities="113">Women with severe hypertension</TAK_Condition></Condition> <Activity gate:gateId="113" childPlans="114" string="require antihypertensive medications" hasType="drug-prescription">require antihypertensive medications</Activity> for acute elevation of blood pressure.</li>
+<li gate:gateId="49">Based on the overall low rate of adverse effects and good efficacy, <Activity gate:gateId="114" string="labetalol is a good option for first-line treatment" hasType="drug-prescription">labetalol is a good option for first-line treatment</Activity> of <Condition gate:gateId="124" string="chronic hypertension in pregnancy" hasConditionType="pre-condition" activities="114"><TAK_Condition gate:gateId="15316" takIds="15297" string="chronic hypertension in pregnancy" hasConditionType="pre-condition" activities="114">chronic hypertension in pregnancy</TAK_Condition></Condition> .</li>
+<li gate:gateId="50">Atenolol, a pure beta antagonist, was shown to be associated with growth restriction in infants and is not currently recommended for the treatment of chronic hypertension in pregnancy.</li>
+<li gate:gateId="51">Thiazide diuretic therapy used in women before pregnancy does not need to be discontinued during pregnancy.</li>
+</ul></p>
+<p gate:gateId="52">The following recommendations are based primarily on consensus and expert opinion (Level C): <ul gate:gateId="53"><li gate:gateId="54">Ideally, a <Condition gate:gateId="125" string="woman with chronic hypertension" hasConditionType="pre-condition" activities="115"><TAK_Condition gate:gateId="15317" takIds="15297" string="woman with chronic hypertension" hasConditionType="pre-condition" activities="115">woman with chronic hypertension</TAK_Condition></Condition> <Activity gate:gateId="115" childPlans="119;118;117;116" string="should be evaluated before conception" ordering="any-order">should be evaluated before conception</Activity> to ascertain possible end-organ involvement. Specific testing before pregnancy or early in pregnancy might include <Activity gate:gateId="116" string="assessment of renal function" hasType="observation">assessment of renal function</Activity> , <Activity gate:gateId="117" string="electrocardiography" hasType="observation">electrocardiography</Activity> , <Activity gate:gateId="118" string="echocardiography" hasType="observation">echocardiography</Activity> , and <Activity gate:gateId="119" string="ophthalmologic evaluation" hasType="physical-examination">ophthalmologic evaluation</Activity> . The choice of appropriate tests is dependent on the severity of the chronic hypertension.</li>
+<li gate:gateId="55"><Condition gate:gateId="126" string="Women taking ACE inhibitors or ARBs" hasConditionType="pre-condition" activities="120"><TAK_Condition gate:gateId="15318" takIds="15306" string="Women taking ACE inhibitors or ARBs" hasConditionType="pre-condition" activities="120">Women taking ACE inhibitors or ARBs</TAK_Condition></Condition> <Activity gate:gateId="120" string="should receive counseling about the importance of effective contraception" hasType="notification">should receive counseling about the importance of effective contraception</Activity> , emphasizing that long-acting reversible contraception is most efficacious.</li>
+<li gate:gateId="56"><Activity gate:gateId="121" string="Evaluation of fetal growth by ultrasonography in women with chronic hypertension is warranted">Evaluation of fetal growth by ultrasonography <Condition gate:gateId="127" string="in women with chronic hypertension" hasConditionType="pre-condition" activities="121"><TAK_Condition gate:gateId="15313" takIds="15304" string="in women with chronic hypertension" hasConditionType="pre-condition" activities="121">in women with chronic hypertension</TAK_Condition></Condition> is warranted</Activity> . <Condition gate:gateId="128" string="If growth restriction is suspected" hasConditionType="pre-condition" activities="122"><TAK_Condition gate:gateId="15314" takIds="15302" string="If growth restriction is suspected" hasConditionType="pre-condition" activities="122">If growth restriction is suspected</TAK_Condition></Condition> , <Activity gate:gateId="122" string="the fetal status should be monitored">the fetal status should be monitored</Activity> .</li>
+</ul></p>
+<p gate:gateId="57"><b gate:gateId="58">Definitions:</b></p>
+
+<p gate:gateId="59"><i gate:gateId="60">Grades of Evidence</i></p>
+
+<p gate:gateId="61">I Evidence obtained from at least one properly designed randomized controlled trial</p>
+
+<p gate:gateId="62">II-1 Evidence obtained from well-designed controlled trials without randomization</p>
+
+<p gate:gateId="63">II-2 Evidence obtained from well-designed cohort or case-control analytic studies, preferably from more than one center or research group</p>
+
+<p gate:gateId="64">II-3 Evidence obtained from multiple time series with or without the intervention. Dramatic results in uncontrolled experiments also could be regarded as this type of evidence.</p>
+
+<p gate:gateId="65">III Opinions of respected authorities, based on clinical experience, descriptive studies, or reports of expert committees</p>
+
+<p gate:gateId="66"><i gate:gateId="67">Levels of Recommendation</i></p>
+
+<p gate:gateId="68">Level A ??? Recommendations are based on good and consistent scientific evidence.</p>
+
+<p gate:gateId="69">Level B ??? Recommendations are based on limited or inconsistent scientific evidence.</p>
+
+<p gate:gateId="70">Level C ??? Recommendations are based primarily on consensus and expert opinion.</p>
+<h2 gate:gateId="71">Benefits/Harms of Implementing the Guideline Recommendations
+</h2><p gate:gateId="72"></p>
+<h3 gate:gateId="73">Potential Benefits</h3>
+<ol gate:gateId="74"><li gate:gateId="75">Improved understanding of the effects of chronic hypertension on pregnancy and the terminology and criteria used to define and diagnose chronic hypertension during pregnancy</li>
+<li gate:gateId="76">Appropriate management of chronic hypertension during pregnancy</li>
+</ol><h3 gate:gateId="77">Potential Harms</h3>
+<h4 gate:gateId="78">Oral Antihypertensives Used Commonly in Pregnancy</h4>
+<ul gate:gateId="79"><li gate:gateId="80">Labetalol: Headache</li>
+<li gate:gateId="81">Nifedipine: Headache</li>
+<li gate:gateId="82">Methyldopa: Maternal sedation, elevated liver function tests (LFTs), depression</li>
+<li gate:gateId="83">Hydralazine: Use with methyldopa or labetalol to prevent reflex tachycardia; risk of neonatal thrombocytopenia</li>
+<li gate:gateId="84">Hydrochlorothiazide: Can cause volume depletion and electrolyte disorders</li>
+</ul><h4 gate:gateId="85">Drugs for Urgent Control of Severe Acute Hypertension in Pregnancy</h4>
+<ul gate:gateId="86"><li gate:gateId="87">Hydralazine: Risk of delayed maternal hypotension, fetal bradycardia</li>
+<li gate:gateId="88">Labetalol: Probably less risk of tachycardia and arrhythmia than with other vasodilators; increasingly preferred as first-line agent</li>
+<li gate:gateId="89">Nifedipine: Possible interference with labor</li>
+</ul><h2 gate:gateId="90">Contraindications</h2>
+
+<p gate:gateId="91">Angiotensin-converting enzyme (ACE) inhibitors and angiotensin receptor blockers (ARBs) are contraindicated during all trimesters of pregnancy.</p>
+</body></html>

@@ -65,6 +65,13 @@ svg.append("defs").selectAll("marker")
 function draw() {
     force.nodes(nodes);
     force.links(links);
+
+    link = svg.selectAll(".context")
+            .data(force.links(), function (d) {
+                return d.source.id + "-" + d.target.id;
+            });
+
+    link.exit().remove();
     
     link = svg.selectAll(".link")
             .data(force.links(), function (d) {
