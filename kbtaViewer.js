@@ -23,7 +23,7 @@ function loadKB(fname) {
        // glFile = "data/GDM_inline_GATE.xml";
     if (fname === "data/kbta_diabetes_LASSIE.xml") 
         glFile = "data/Diabetes_inline_LASSIE.xml";
-    if (fname === "data/kbta_GDM_LASSIE.xml")
+    if (fname === "data/kbta_gdm_LASSIE.xml")
         glFile = "data/GDM_inline_GATE_final.xml";
     //if (fname === "data/kbta_GDM_LASSIE_newtest.xml")
     //    glFile = "data/GDM_inline_GATE_newtest.xml";
