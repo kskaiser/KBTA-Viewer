@@ -75,10 +75,6 @@ td, th {
 	overflow: auto;
 }
 
-form {
-    margin-left: 5pt;
-}
-
 #graph {
 	overflow:scroll; 
 }
@@ -265,4 +261,23 @@ caption {
 	margin-left: 10pt;
 	font-size: 10pt;
 	color: silver;
+}
+
+#text {
+	margin-left: 30pt;
+	font-size: 11pt;
+	color: DimGray;
+	line-height: 1.5em;
+}
+#caption h1 {
+	font-size: 2em;
+}
+
+#caption h2 {
+	font-size: 1.3em;
+	margin-left: 30pt;
+}
+
+form { margin-left: 30pt;
+	display: inline;
 }
