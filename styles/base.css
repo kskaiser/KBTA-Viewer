@@ -26,7 +26,7 @@ table {
  
 body {
   font-family: system, -apple-system,
-     ".SFNSDisplay-Regular", "Exo 2", "Helvetica Neue", Helvetica, sans-serif;
+     "Helvetica Light", Helvetica, ".SFNSDisplay-Regular", "Exo 2", sans-serif;
   font-weight: 300;
   font-size: 1.2em;
   background: #FAFFFF;
@@ -37,9 +37,9 @@ strong {
 }
  
 h1, h2, h3, h4, h5, h6, h7 {
-  font-family: 'Roboto Slab', "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif; // 'Roboto Slab', 
   font-weight: 700;
-  color: #CB4B19;
+  color: SlateGray;
   font-size: 1.75em;
   margin-bottom: .4em;
   margin-left: 1em;

@@ -19,13 +19,11 @@ function loadKB(fname) {
     d3.xml(fname, "application/xml", readXML);
 
     var glFile;
-    // if (fname === "data/kbta_gdm_LASSIE.xml") 
-       // glFile = "data/GDM_inline_GATE.xml";
     if (fname === "data/kbta_diabetes_LASSIE.xml") 
         glFile = "data/Diabetes_inline_LASSIE.xml";
-    if (fname === "data/kbta_gdm_LASSIE_final.xml")
+    if (fname === "data/kbta_gdm_LASSIE.xml")
         glFile = "data/GDM_inline_GATE_final.xml";
-
+    
     if (glFile.length > 0) {
         console.log("Look for the Guideline file ..." + glFile);
         d3.xml(glFile, function (error, xml) {
@@ -62,21 +60,21 @@ function writeConceptNumbers() {
 var width = 400, // 800,
         height = 300; //700;
 
-        var force = d3.layout.force()
-        .nodes(selectedNodes)
-        .links(selectedLinks)
+var force = d3.layout.force()
+        //.nodes(selectedNodes)
+        //.links(selectedLinks)
         .charge(-150)
         .linkDistance(70)
         .size([width, height])
         .on("tick", tick);
 
-        var svg = d3.select("#chart").append("svg")
+var svg = d3.select("#chart").append("svg")
         .attr("id", "graph")
         .attr("width", width)
         .attr("height", height)
         .attr("viewbox", "0 0 " + width + " " + (height));
 
-        svg.append("defs").selectAll("marker")
+    svg.append("defs").selectAll("marker")
         .data(["end"]) // Different link/path types can be defined here
         .enter().append("marker")
         .attr("id", function (d) {
@@ -91,53 +89,56 @@ var width = 400, // 800,
         .append("path")
         .attr("d", "M0,-5L10,0L0,5");
 
-        function draw() {
-//    force.nodes(selectedNodes);
-//    force.links(selectedLinks);
+function draw() {
 
-link = svg.selectAll(".link")
-.data(force.links(), function (d) {
-    return d.source.id + "-" + d.target.id;
-});
-link.enter().append("line")
-.attr("class", function (d) {
-    return d.type;
-})
-.attr("marker-end", "url(#end)");
+    link = svg.selectAll(".context")
+                .data(force.links(), function (d) {
+                    return d.source.id + "-" + d.target.id;
+                });
+    link.exit().remove();
 
-link.exit().remove();
 
-node = svg.selectAll(".node")
-.data(force.nodes(), function (d) {
-    return 'c' + d.id;
-});
+    link = svg.selectAll(".link")
+            .data(force.links(), function (d) {
+                return d.source.id + "-" + d.target.id;
+            });
+    link.enter().append("line")
+            .attr("class", function (d) {
+                return d.type;
+            })
+            .attr("marker-end", "url(#end)");
+    link.exit().remove();
 
-node.enter().append("g")
-.attr("class", "node")
-.attr("id", function (d) {
-    return 'c' + d.id;
-})
-.on("mouseover", mouseover)
-.on("mouseout", mouseout)
-.on("mousedown", mousedown)
-.call(force.drag);
+    node = svg.selectAll(".node")
+            .data(force.nodes(), function (d) {
+                return 'c' + d.id;
+            });
 
-node.append("circle")
-.attr("class", function (d) {
-    return "node " + d.type;
-})
-.attr("r", 5);
+    node.enter().append("g")
+            .attr("class", "node")
+            .attr("id", function (d) {
+                return 'c' + d.id;
+            })
+            .on("mouseover", mouseover)
+            .on("mouseout", mouseout)
+            .on("mousedown", mousedown)
+            .call(force.drag);
 
-node.append("text")
-.attr("x", 12)
-.attr("dy", ".35em")
-.text(function (d) {
-    return (d.name.length > 15) ? d.name.substring(0, 12) + " ..." : d.name;
-});
+    node.append("circle")
+            .attr("class", function (d) {
+                return "node " + d.type;
+            })
+            .attr("r", 5);
 
-node.exit().remove();
+    node.append("text")
+            .attr("x", 12)
+            .attr("dy", ".35em")
+            .text(function (d) {
+                return (d.name.length > 15) ? d.name.substring(0, 12) + " ..." : d.name;
+            });
+    node.exit().remove();
 
-force.start();
+    force.start();
 } // draw () ----------------------
 
 
@@ -204,22 +205,23 @@ function mouseover() {
 
 function mouseout() {
     d3.select(this).select("circle").transition()
-    .duration(500)
-    .attr("r", 5);
+        .duration(500)
+        .attr("r", 5);
     d3.select(this).select('text').transition()
-    .style("font-weight", "normal")
-    .style("fill", "silver")
-    .style("font-size", "10");
-    for (var i in highlightedNodes) {
-        var id = highlightedNodes[i];
-        d3.select('#c' + id).select("text")
-        .transition()
         .style("font-weight", "normal")
         .style("fill", "silver")
         .style("font-size", "10");
+
+    for (var i in highlightedNodes) {
+        var id = highlightedNodes[i];
+        d3.select('#c' + id).select("text")
+            .transition()
+            .style("font-weight", "normal")
+            .style("fill", "silver")
+            .style("font-size", "10");
         d3.select('#c' + id).select("circle")
-        .transition()
-        .attr("r", 5);
+            .transition()
+            .attr("r", 5);
     } // for
     highlightedNodes = [];
 } // mouseout () ---------------------
@@ -261,14 +263,14 @@ function writeLinkedConcepts(t) {
     t.exit().remove();
     var der = t.enter().append("span");
     der.append("svg")
-    .attr('width', 20).attr('height', 15)
-    .attr('style', 'margin-top: 3px; margin-right: 5px')
-    .append("circle")
-    .attr('r', 5).attr("cx", 10).attr("cy", 8)
-    .attr("class", function (d) {
-        var type = docNode.getElementById(d).getAttribute('type');
-        return "node " + type;
-    });
+        .attr('width', 20).attr('height', 15)
+        .attr('style', 'margin-top: 3px; margin-right: 5px')
+        .append("circle")
+        .attr('r', 5).attr("cx", 10).attr("cy", 8)
+        .attr("class", function (d) {
+            var type = docNode.getElementById(d).getAttribute('type');
+            return "node " + type;
+        });
     der.append('span').text(function (d) {
         var name = docNode.getElementById(d).getAttribute('name');
         return d + " " + name;
@@ -291,13 +293,13 @@ function writeLinkedConcepts(t) {
                 if (d.type === 'LogicAbstraction')
                     text += " - " + d.rel;
                 text += ")";
-}
-if (value === 'values') {
-    if (d.type === 'RawNominal') {
-        var tagName = "", valueName = "";
-        if (d.type === 'RawNominal') {
-            tagName = 'NominalAllowedValues';
-            valueName = 'NominalStringValue';
+        }
+        if (value === 'values') {
+            if (d.type === 'RawNominal') {
+                var tagName = "", valueName = "";
+                if (d.type === 'RawNominal') {
+                    tagName = 'NominalAllowedValues';
+                    valueName = 'NominalStringValue';
                 } // if
                 if (d.type === 'RawOrdinal') {
                     tagName = 'OrdinalAllowedValues';
@@ -310,7 +312,7 @@ if (value === 'values') {
                 for (var t in possValues) {
                     console.log("possValue = " + possValues[t]);
                     if (possValues[t].nodeType === 1) // instanceof Element)
-values += possValues[t].getAttribute('value') + ", ";
+                        values += possValues[t].getAttribute('value') + ", ";
                 } // for
                 console.log("possible values of rawNominal/Ordinal Concept: " + values);
                 text += values;
@@ -352,8 +354,9 @@ function whichElement(e) {
             var mySelectedNodes = [];
             for (var i in ids) {
                 var id = ids[i];
-                mySelectedNodes = mySelectedNodes.concat(getClusterNodes(id));
+                mySelectedNodes = mySelectedNodes.concat(getClusterNodes(id)).sort();
             }
+            mySelectedNodes = removeDuplicates (mySelectedNodes);
             console.log ("My selected nodes: " + mySelectedNodes.join());
             selectedNodes = [];
             for (var i in mySelectedNodes) {
@@ -364,24 +367,48 @@ function whichElement(e) {
                         selectedNodes.push(myNode);
                 } // for
             } // for
-            console.log("Selected nodes: " + selectedNodes.join());
+            console.log("Selected nodes: " + nodesToString (selectedNodes));
             force.nodes(selectedNodes);
             selectedLinks = getSelectedLinks (mySelectedNodes);
-            console.log("Selected links: " + selectedLinks.join());
+            console.log("Selected links: " + linksToString(selectedLinks));
             force.links(selectedLinks);
             draw();
         } else {
             console.log("No concepts found in this particular condition.");
-            nodes = [];
-            links = [];
-            force.nodes(nodes);
-            force.links(links);
+            // nodes = [];
+            // links = [];
+            force.nodes([]);
+            force.links([]);
             draw();
         }
 
     }
 }
 
+function removeDuplicates (arr) {
+    var temp = {};
+    for (var i = 0; i < arr.length; i++)
+        temp[arr[i]] = true;
+ 
+    var r = [];
+    for (var k in temp)
+        r.push(k);
+    return r;
+}
+function linksToString (myLinks) {
+    var s = [];
+    for (var i in myLinks) {
+        s.push (myLinks[i].source.id + " - " + myLinks[i].target.id + " ("+myLinks[i].type+")");
+    }
+    return s.join(";\t");
+}
+function nodesToString (myNodes) {
+    var s = [];
+    for (var i in myNodes) {
+        s.push(myNodes[i].id);
+    }
+    return s.join (";\t");
+}
 function getSelectedLinks (myNodes) {
     var myLinks = [];
     for (var i in myNodes) {
@@ -391,13 +418,29 @@ function getSelectedLinks (myNodes) {
             var sid = myLink.source.id;
             var tid = myLink.target.id;
             if (sid === myNode || tid === myNode) {
-                if (myLinks.indexOf (myLink) === -1)
+                if (myLinks.indexOf (myLink) === -1 && notContainsLink (myLinks, myLink))
                     myLinks.push(myLink);
             }
         }
     }
     return myLinks;
 } // getSelectedLinks () --------------
+
+
+function notContainsLink (myLinks, myLink) {
+    var sid = myLink.source.id;
+    var tid = myLink.target.id;
+    for (var i in myLinks) {
+        var thisLink = myLinks[i];
+        var thisSid = thisLink.source.id;
+        var thisTid = thisLink.target.id;
+        if (sid === thisSid && tid === thisTid)
+            return false;
+        if (tid === thisSid && sid === thisTid)
+            return false;
+    }
+    return true;
+}
 
 function getClusterNodes(id) {
     var clusterNodes = getClusterNodesToLeaves (id);

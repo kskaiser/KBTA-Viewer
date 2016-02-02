@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>KBTA Viewer</title>
-        <link rel="stylesheet" href="_/base.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
 
@@ -12,11 +12,12 @@
         <form>
             <select name="KBTA" onchange="loadKB(this.form.KBTA.options[this.form.KBTA.selectedIndex].value)">
                 <option selected>Choose a knowledge base ...</option>
-                <option value="data/kbta_diabetes_LASSIE.xml">Diabetes Knowledge Base (LASSIE)</option>
-                <option value="data/kbta_gdm_GS.xml">GDM Knowledge Base (LASSIE)</option>
-                <option value="data/kbta_gdm_LASSIE_final.xml">GDM Knowledge Base (LASSIE)</option>
-                <!-- option value="data/test.xml">Test1</option>
-                <option value="data/test2.xml">Test2</option -->
+                <!--option value="data/kbta_diabetes_LASSIE.xml">Diabetes Knowledge Base (LASSIE)</option>
+                <option>------------------</option>
+                <option value="data/GDM_GoldStandard_kbta.xml">GDM Knowledge Base (Gold Standard)</option-->
+                <option value="data/kbta_gdm_LASSIE.xml">GDM Knowledge Base (LASSIE)</option>
+                <!--option value="data/kbta_GDM_LASSIE_newtest.xml">GDM Knowledge Base (LASSIE) - TEST</option -->
+                <!-- option value="data/kbta_diabetes_LASSIE.xml">Diabetes Knowledge Base (LASSIE)</option -->
             </select>
         </form>
         <div id="menu">
@@ -39,7 +40,7 @@
 
         </div>
         
-    <script src="_/d3.min.js"></script>
+    <script src="styles/d3.min.js"></script>
     <script src="loadDataFiles.js"></script>
     <script src="kbtaViewer.js"></script>
 </body>
