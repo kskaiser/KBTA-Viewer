@@ -263,6 +263,10 @@ caption {
 	color: silver;
 }
 
+#footnote {
+	font-size: 9pt;
+	color: DimGray;
+}
 #text {
 	margin-left: 30pt;
 	font-size: 11pt;
