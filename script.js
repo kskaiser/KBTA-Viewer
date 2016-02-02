@@ -4,6 +4,9 @@ var highlightedNodes = [];
 
 var node, link, textNode;
 
+var width = 900, // 800,
+    height = 700; //700;
+
 function loadKB(fname) {
     console.log("use file '" + fname + "' ...");
     if (nodes.length > 0) {
@@ -15,6 +18,12 @@ function loadKB(fname) {
     } // if
 
     d3.xml(fname, "application/xml", readXML);
+
+    if (nodes.length > 200) {
+        width = 900 + nodes.length;
+        height = 700 + nodes.length;
+        force.size([width, height]);
+    }
 
 } // loadKB () ------------------------
 
@@ -29,9 +38,6 @@ function writeConceptNumbers () {
     conceptNumbers += "total: " + totalNums;
     return conceptNumbers;
 } // writeConceptNumbers () -----------
-
-var width = 900, // 800,
-    height = 700; //700;
 
 var force = d3.layout.force()
         .nodes(nodes)
