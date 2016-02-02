@@ -57,6 +57,11 @@ td, th {
 	overflow: hidden;
 }
 
+#footnotes {
+	font-size: 9pt;
+	color: DimGray;
+}
+
 #kbta {
 	 float:top; 
 	 overflow:hidden; 
