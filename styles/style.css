@@ -1,0 +1,283 @@
+.link {
+  stroke: #000;
+  stroke-width: 1px;
+}
+
+.node {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.context {
+	stroke: #000;
+	stroke-width: 1px;
+	stroke-dasharray: 3px;
+}
+
+.node.RawNominal, .node.RawNumeric, .node.RawOrdinal { 
+	stroke: #009933;
+	fill: #80CC99; } /* green */
+.node.ValueAbstraction { 
+	stroke: #FFDB4D;
+	fill: #FFF5CC; } /* yellow */
+.node.LogicAbstraction { 
+	stroke: #5CB8E6; 
+	fill: #C2EBFF;} /* blue */
+.node.Pattern { 
+	stroke: #A37547; 
+	fill: #D6C2AD; }	/* brown */
+.node.Context { 
+	stroke: #FF9900; 
+	fill: #FFCC80;} /* orange */
+
+text {
+	fill: silver;
+	stroke: none;
+	font-family: system, -apple-system,
+     ".SFNSDisplay-Regular", HelveticaNeue, LucidaGrande;
+	font-size: 10px;
+	pointer-events: none;
+}
+
+table {
+	background-color: #fff;
+	border-collapse: collapse;
+	table-layout: fixed;
+	word-break: normal;
+	width: 450px; 
+}
+
+td, th {
+	border: 1px solid #E0F5FF;
+	font-family: system, -apple-system,
+     ".SFNSDisplay-Regular", HelveticaNeue, LucidaGrande;
+	font-size: 12px; 	
+	padding : 3px;
+	overflow: hidden;
+}
+
+#kbta {
+	 float:top; 
+	 overflow:hidden; 
+}
+
+#kbtaCluster {
+    overflow:hidden;
+}
+
+#chart {
+	border: 1pt solid #E0F5FF;
+	background-color: white;
+	margin-left:5pt;
+	margin-right: 10pt;
+	float: left;
+	overflow: auto;
+}
+
+#graph {
+	overflow:scroll; 
+}
+
+#guideline {
+	background-color:white;
+	border: 1pt solid #E0F5FF;
+	margin: 5pt 5pt;
+	padding-left: 10pt;
+	clear: left;
+	overflow: auto;
+	height: 200pt;
+}
+
+#guideline body {
+	font-family: system, -apple-system,
+     ".SFNSDisplay-Regular", HelveticaNeue, LucidaGrande;
+     counter-reset: h1;
+     clear: all;
+}
+
+#guideline h1, #guideline h2, #guideline h3, #guideline h4, #guideline h5, #guideline h6,
+#guideline p, #guideline ol, #guideline ul {
+	display : block;
+}
+#guideline h1 {
+	font-size: 18px;
+    font-weight: bold;
+    margin-left: 0;
+    counter-reset: h2;
+}
+#guideline h2 {
+	font-size: 16px;
+    font-weight: bold;
+    counter-reset: h3;
+    margin-left: 0;
+}
+#guideline h3 {
+	font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    counter-reset: h4;
+    margin-left: 0;
+}
+#guideline h4 {
+	font-size: 14px;
+	font-style: italic;
+    counter-reset: h5;
+    margin-left: 0;
+}
+#guideline h5 {
+	font-size: 14px;
+	counter-reset: h6;
+    margin-left: 0;
+}
+#guideline h6 {
+	font-size: 12px;
+	counter-reset: h7;
+	font-weight: bold;
+	font-style: italic;
+    margin-left: 0;
+}
+
+#guideline h7 {
+	display: block;
+	font-size: 12px;
+	font-style: italic;
+    margin-left: 0;
+}
+
+#guideline p, #guideline table, #guideline li {
+	font-size: 12px;
+}
+#guideline table, #guideline ul, #guideline ol {
+	margin-left: 10pt;
+}
+
+#guideline p {
+	margin-bottom: .1em;
+	line-height: normal;
+}
+
+logicabstraction {
+	background-color: #C2EBFF;
+	padding: 1pt;
+}
+valueabstraction {
+	background-color: #FFF5CC;
+	padding: 2pt;
+}
+rawnominalconcept, rawordinalconcept, rawnumericconcept {
+	background-color: #80CC99;
+}
+#guideline context {
+	background-color: #FFCC80;
+	padding: 1pt;
+}
+patternabstraction {
+	background-color: #D6C2AD;
+	padding: 3pt;
+}
+
+TAK_Condition {
+	background-color: #FFF5CC;
+	border-color: #FFDB4D;
+}
+
+  #guideline h1:before {counter-increment: h1; content: counter(h1) ". "}
+  #guideline h2:before {counter-increment: h2; content: counter(h1) "." counter(h2) ". "}
+  #guideline h3:before {counter-increment: h3; content: counter(h1) "." counter(h2) "." counter(h3) ". "}
+  #guideline h4:before {counter-increment: h4; content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) ". "}
+  #guideline h5:before {counter-increment: h5; content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". "}
+  #guideline h6:before {counter-increment: h6;}
+  #guideline h7:before {counter-increment: h7;}
+
+  #guideline h1.nocount:before, 
+  #guideline h2.nocount:before, 
+  #guideline h3.nocount:before, 
+  #guideline h4.nocount:before,
+  #guideline h5.nocount:before,
+  #guideline h6.nocount:before,
+  #guideline h7.nocount:before {content: ""; counter-increment: none } 
+
+li {
+  	display: list-item;
+}
+ 
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit
+}
+
+tfoot {
+    display: table-footer-group;
+    vertical-align: middle;
+    border-color: inherit
+}
+
+table > tr {
+    vertical-align: middle;
+}
+
+col {
+    display: table-column
+}
+
+colgroup {
+    display: table-column-group
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit
+}
+#guideline th, #guideline td {
+	padding: 0px 3px;
+	line-height: 1.5em;
+}
+
+th {
+    font-weight: bold;
+}
+
+caption {
+    display: table-caption;
+    text-align: -webkit-center
+}
+
+#concepts {
+	margin-left: 10pt;
+	font-size: 10pt;
+	color: silver;
+}
+
+#text {
+	margin-left: 30pt;
+	font-size: 11pt;
+	color: DimGray;
+	line-height: 1.5em;
+}
+#caption h1 {
+	font-size: 2em;
+}
+
+#caption h2 {
+	font-size: 1.3em;
+	margin-left: 30pt;
+}
+
+form { margin-left: 30pt;
+	display: inline;
+}
